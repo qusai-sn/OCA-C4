@@ -1,4 +1,4 @@
-# Welcome to my private repository
+# Welcome to qusai-alsenjalawi's private repository
 
 Welcome to my private repository, dedicated to submitting tasks and sharing progress with Orange Coding Academy coaches. Here, I'll be documenting my journey through the bootcamp, storing code, and resources while also submitting assignments for review.
 
@@ -17,3 +17,8 @@ Access supplementary materials recommended by the academy. Whether it's lecture 
 Engage in a constructive feedback loop with coaches. Receive guidance, suggestions, and mentorship on your coding journey to help you grow and improve as a developer.
 
 Thank you for entrusting me with your feedback and guidance as I navigate through the Orange Coding Academy bootcamp. Let's code and learn together!
+
+**About Me:**
+- **Name:** Qusai Alsenjalawi
+- **Training:** Orange Coding Academy Cohort 4
+- **Education:** Graduated from Yarmouk University with a degree in Computer Information Systems
