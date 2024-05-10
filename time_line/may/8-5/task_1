@@ -1,0 +1,175 @@
+
+
+
+Task 1 : 
+
+search about : 
+
+	HTML pages Structure,
+    HTML4 VS HTML5,
+    difference between inline and block elements,
+    Headings,
+    Paragraphs and Typography,
+    Links ,
+    images ,
+    Upload the code on GitHub
+
+
+#HTML pages Structure : 
+ 
+
+<!DOCTYPE html> <!-- informing the browser that this is a HTML5 document -->
+
+<html lang="en"> <!-- Defines the root element, specifying the language -->
+
+<head> <!--   Contain the meta-data about the document -->
+     <title>First Code</title> <!-- Sets the title of the document -->
+</head>
+<body> <!-- Contains the visible content of the document -->
+        <h1>Heading 1</h1> <!-- Defines the main heading of the page -->
+        <a href="https://google.com">Home</a> <!-- Represents a list item with a hyperlink -->
+  
+</body>
+</html> <!-- Closing the root element-->
+
+
+
+
+
+
+#HTML headings : 
+
+
+
+HTML headings are titles or subtitles that you want to display on a web
+
+<h1> defines the most important heading.</h1>
+<h6> defines the least important heading.</h6>
+
+It is important to use headings to show the document structure.
+
+<h1> headings should be used for main headings, followed by <h2>
+
+Each HTML heading has a default size.  you can specify the size for any heading using  CSS
+
+
+
+
+
+
+
+
+#images :
+
+<img src="image.jpg" alt="Description of the image">
+<img>: This is the image tag.
+
+src: This attribute specifies the URL of the image.
+alt: This attribute provides alternative text for an image.
+
+
+
+
+
+
+#Paragraphs and Typography : 
+
+<p>This is a paragraph.</p>   <!-- The HTML <p> element defines a paragraph. -->
+
+<p>This is<br>a paragraph<br>with line breaks.</p>   <!-- The HTML <br> element defines a line break. -->
+
+<p>Lorem ipsum <small>DOLORE</small> sit, <b></b> consectetur <mark>adipisicing</mark> elit. Unde <strong>quidem</strong>, quo mollitia , <i>odit</ii> minus <sub>omnis</sub> <sup>ipsa</sup> nam <del>accusantium</del> cum dolore quibusdam? Sapiente optio odit eveniet minus sint animi laudantium nam?<ins>this is new text</p>
+
+
+#Links :
+
+HTML links are hyperlinks.
+
+clicking on the link allow you to navigate between the documents . 
+
+
+<a href="url">link text</a>
+
+<a href="https://google.com">Google</a>
+
+
+
+
+# full example : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  <style>
+        .menu {
+  list-style:none;
+  display: flex;
+  position:absolute;
+  top:100% ;
+  right: 30%;
+  padding-top: 10px;}
+.menu-item {
+  color:black;
+  text-decoration: none;
+  background: #c1a9a9;
+  border: 1px solid #ccc;
+  padding:20px 30px;
+  margin: 10px;
+}
+.img_container{
+    max-width: fit-content;
+  margin-inline: auto;
+}
+    </style> -->
+    <title>Document</title>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+<p>Lorem ipsum <small>DOLORE</small> sit, <b></b> consectetur <mark>adipisicing</mark> elit. Unde <strong>quidem</strong>, quo mollitia , <i>odit</ii> minus <sub>omnis</sub> <sup>ipsa</sup> nam <del>accusantium</del> cum dolore quibusdam? Sapiente optio odit eveniet minus sint animi laudantium nam?<ins>this is new text</p>
+    <div class="img_container"><img src="https://img.pikbest.com/origin/10/00/71/29ZpIkbEsTcWD.jpg!w700wp" alt="cute cat" style="height: 200px; width: 200px; border: 2px solid black;">
+    <img src="https://img.freepik.com/free-photo/3d-rendering-cartoon-like-dog_23-2150780984.jpg" alt="cute dog" style="height: 200px;width: 200px; border: 2px solid black;"></div>
+    <ul class="menu">
+        <li><a class="menu-item" href="https://www.microsoft.com/en-jo/">Microsoft</a></li>
+        <li><a class="menu-item" href="https://www.netflix.com/jo-en/">Netflix</a></li>
+        <li><a class="menu-item" href="https://www.youtube.com/">youtube</a></li>
+        <li><a class="menu-item" href="https://www.google.com/imghp?hl=en&tab=ri&ogbl">Google</a></li>
+    </ul>
+</body>
+</html>
+
+
+#difference between inline and block elements : 
+
+
+<!-- Block-Level Elements -->
+<h1  >Block Level Elements</h1>
+<h3>Hello! I'm a heading tag and I take every space available</h3>
+<p>Hello! I'm a paragrapgh tag, and I take every space available</p>
+<div>I'm also a block element</div> <div>I'm also a block element</div>
+
+
+
+<!-- Inline-Level Elements -->
+
+<h1>Inline Level Elements</h1>
+
+<p>image tag is a good example of an inline element:</p>
+
+<img width="150px" height="150px" src="https://dcist.com/wp-content/uploads/sites/3/2019/04/Gem2-1500x1346.jpg" alt="Cat">
+<img width="150px" height="150px" src="https://dcist.com/wp-content/uploads/sites/3/2019/04/Gem2-1500x1346.jpg" alt="Cat">
+
+<p>Also, the anchor tag is a good example of an inline element:</p>
+
+<a href="https://www.facebook.com/">Go to Facebook</a>
+<a href="https://www.instagram.com/?hl=en">Go to Instagram</a>

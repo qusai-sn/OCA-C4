@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="html tags tutorials">
+    <meta name="keywords" content="Div , span , meta , list , tables , iFrame ">
+    <meta name="author" content="Team 2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p{
+            font-size: 30px;
+        }
+        iframe{
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+        }
+        table, th, td {
+            border: 1px solid;
+            padding: 10px;
+        }
+        th,td{
+            width: 20%;
+            text-align: center;
+        }
+        .sp{
+            background-color: red;
+            color: white;
+        }
+
+
+    </style>
+    <title> tags</title>
+</head>
+<body>
+   <p>  lists </p>
+    <!--ordered list-->
+   <ol>
+        <li> test 1</li>
+        <li> test 2</li>
+        <li> test 3</li>
+        <li> test 4</li>
+   </ol>
+    <!--unordered list-->
+   <ul>
+        <li> test 5</li>
+        <li> test 6</li>
+        <li> test 7</li>
+        <li> test 8</li>
+   </ul>
+    <br />
+    <br />
+    <br />
+    <p>table </p>
+    <table>
+        <tr>
+         <th>Name</th>
+         <th>Phone no.</th>
+         <th>Position</th>
+     </tr>
+     <tr>
+         <td>Malik Ibdah</td>
+         <td>0786217123</td>
+         <td>Web developer trainee</td>
+     </tr>
+     <tr>
+         <td>Anas Alnajjnr</td>
+         <td>0782547965</td>
+         <td>Web developer trainee</td>
+     </tr>
+     <tr>
+         <td>Mustafa Almomami</td>
+         <td>0791254789</td>
+         <td>Web developer trainee</td>
+     </tr>
+     <tr>
+         <td>Ahmad Onizat</td>
+         <td>0772541789</td>
+         <td>Web developer trainee</td>
+     </tr>
+     <tr>
+         <td>Mohamad Gharibeh</td>
+         <td>0785413698</td>
+         <td>Web developer trainee</td>
+     </tr>
+     <tr>
+         <td>Mohammad Fawareh</td>
+         <td>0795241879</td>
+         <td>Web developer trainee</td>
+     </tr>
+     <tr>
+         <td>Qusai Alsenjalawi</td>
+         <td>0796523698</td>
+         <td>Web developer trainee</td>
+     </tr>
+     <tr>
+         <td>Yousef Khraiwesh</td>
+         <td>0796543698</td>
+         <td>Web developer trainee</td>
+     </tr>
+     </table>
+     <hr>
+     <br>
+     <p>Div and Span</p>
+     <div>The div (division) element is a generic block-level element. You most frequently use it to divide your page content into digestible blocks. A block element is a page element that starts a new line and has a width equal to the entire page or the parent container.</div>
+     <span>Span is a generic inline element often used to apply styling to a portion of content. An inline element does not start a new line and only takes up as much space on the page as its content. Span tags are used on small segments of text, links, images, and other HTML elements that appear inline with the surrounding content.</span ><span class="sp">THIS is also span</span>
+     <p> iframe</p>
+    <iframe src="https://i-frame.io/" width="400px" height="400px" style="border:1px solid black;">
+    </iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13452.70384472369!2d35.8600194!3d32.5481488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2sjo!4v1715238221038!5m2!1sar!2sjo" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <hr>
+    <br>
+    <br>
+    <p>MEDIA</p>
+    <video width="300" height="220" controls>
+        <source src="cow.mp4" type="video/mp4">
+        <source src="https://www.youtube.com/watch?v=uof_zYxtnp0" type="video/ogg">
+      </video>
+      <audio controls autoplay>
+
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/mpeg">
+      </audio>
+      <video src=""></video>
+      <hr>
+      <br>
+      <br>
+      <h1>Forms in HTML</h1>
+
+    <form action="">
+        <label for="">Username</label>
+        <input type="text" placeholder="Kikky3bdo" name="username" required >
+
+        <br> <br>
+
+        <label for="">Password</label>
+        <input type="password" placeholder="enter your password" name="password" required>
+
+        <br> <br>
+
+        <label for="">Email</label>
+        <input type="email" placeholder="JasonJi@gmail.com" name="email" required>
+
+        <br> <br>
+
+        <label for="phone">Phone Number</label>
+
+        <input type="tel" id="phone" name="phone" pattern="+962\d{9}" placeholder="+962 7" >
+
+        <br> <br>
+
+
+        <label for="">Choose your favriote color</label>
+        <input type="color" name="color">
+
+
+        <br> <br>
+
+
+
+        <label for="">How much you love your color</label>
+        <input type="range" name="colorLoveDegree" min="0" max="100" step="2" value="20">
+
+        <br> <br>
+
+        <label for="">How much you love this color out of 10</label>
+        <input type="number" placeholder="3" name="Number" min="0" max="10">
+
+
+        <br> <br>
+
+
+        <h3>What's your fav sport?</h3>
+
+        <input id= "soccer" type="radio" name="favSport" id="">
+        <label for="soccer">Soccer</label>
+
+        <input type="radio" name="favSport">
+        <label for="">Basketball</label>
+
+        <input type="radio" name="favSport">
+        <label for="">Tennis</label>
+
+        <br> <br>
+
+        <h3>What are your fav sports?</h3>
+
+        <input id= "Football" type="checkbox" name="favSport">
+        <label for="Football">Football</label>
+
+        <br>
+
+        <input type="checkbox" name="favSport">
+        <label for="">Basketball</label>
+
+        <br>
+
+        <input type="checkbox" name="favSport">
+        <label for="">Tennis</label>
+
+        <br> <br>
+
+
+
+
+        <input type="submit" value="submit here">
+        <input type="reset" value="click to reset">
+
+    </form>
+    
+</body>
+</html>
