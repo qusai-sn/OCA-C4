@@ -1,17 +1,20 @@
 # Welcome to Qusai Alsenjalawi's Private Repository
 
-Welcome to my private repository, dedicated to submitting tasks and sharing progress with Orange Coding Academy coaches. Here, I'll be documenting my journey through the bootcamp, storing code, and resources while also submitting assignments for review.
+Welcome to my private repository, where you'll find organized folders dedicated to different aspects of my learning journey at Orange Coding Academy. Here's a breakdown of each folder:
 
 ## What You'll Find:
 
-### Task Submissions:
-Submit completed assignments and coding tasks directly to this repository. Each task submission is organized neatly in its respective folder, making it easy for coaches to review and provide feedback.
+### My Learning:
+Explore my learning timeline and access tasks and assignments submitted during the bootcamp. The `learning-timeline.md` file provides an overview of my progress, while the `tasks-and-assignments` directory contains folders organized by date, each containing markdown files for tasks and assignments.
 
-### Project Work:
-Explore the projects I've been working on during the bootcamp. From simple exercises to full-fledged applications, each project folder contains the code, resources, and any additional instructions provided by instructors.
+### Projects:
+Discover the projects I've been working on during the bootcamp. Each project folder contains source code in the `src` directory, along with a `README.md` file providing documentation and instructions.
 
-### Learning Resources:
-Access supplementary materials recommended by the academy. Whether it's lecture slides, tutorials, or articles, this section is a valuable resource for deepening understanding and mastering new concepts.
+### Side Projects:
+Explore smaller side projects or experiments I've been working on alongside my main coursework. Each side project folder includes source code in the `src` directory and a `README.md` file with project details.
+
+### Resources:
+Access supplementary learning materials recommended by the academy. This includes lectures, tutorials, articles, and other resources to deepen understanding and master new concepts.
 
 ### Feedback Loop:
 Engage in a constructive feedback loop with coaches. Receive guidance, suggestions, and mentorship on your coding journey to help you grow and improve as a developer.
