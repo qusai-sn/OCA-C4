@@ -27,5 +27,5 @@ Thank you for entrusting me with your feedback and guidance as I navigate throug
 
 **About Me:**
 - **Name:** Qusai Alsenjalawi
-- **Training:** Orange Coding Academy Cohort
+- **Training:** Orange Coding Academy 
 - **Background:** Graduated from Yarmouk University with a degree in Computer Information Systems. 
