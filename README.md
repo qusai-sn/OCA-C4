@@ -1,6 +1,6 @@
 # Welcome to Qusai Alsenjalawi's Private Repository
 
-Welcome to my private repository, This repository is my digital diary for the Orange Coding Academy journey. Here, you'll find my projects, tasks, and resources neatly organized for easy exploration. Feel free to join me as I navigate through this coding adventure! Here's how this repository is organized for efficient use:
+Welcome to my private repository, This repository is my digital diary for the **Orange Coding Academy** journey. Here, you'll find my projects, tasks, and resources neatly organized for easy exploration. Feel free to join me as I navigate through this coding adventure! Here's how this repository is organized for efficient use:
 
 ## What You'll Find:
 
