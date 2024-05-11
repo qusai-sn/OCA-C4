@@ -6,28 +6,48 @@
     <title>Registration Form !</title>
     <style>
 
-    .form-1 {
-            border: 2px dotted #000000;  
+        .form-1 {
+            border: 2px solid #000000;  
             border-radius: 5px;  
             padding: 20px;  
             width: 300px;  
+            background-color: #f3ebb1;
+            margin-top: 20px;  
+            position: relative;  
         }
-    body {
-              display: flex;
-              flex-direction: column ;  
-              justify-content: center; 
-              align-items: center;  
-              height: 600 px;
+        body {
+            display: flex;
+            flex-direction: column;  
+            justify-content: center; 
+            align-items: center;  
+            height: 600px;
+            margin: 0;  
+            padding: 0;  
+        }
+        h3 {
+            position: absolute; 
+            top: -20px; 
+            left: 20px;  
+            margin: 0;
+            padding: 4px; 
+            background-color: rgb(255, 255, 255);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         
     </style>
 </head>
 <body>
-    <h1>My First Form</h1>
-    <div class="form-1">
-    <h2>Personal details</h2>
+     
+     
+     
     <hr>
     <form method="post" action="">
+        <div class="form-1">
+        <h3>personal Details</h3>
         <label>First name: </label>
         <input type="text" id="first_name" name="first_name" required  placeholder="qusai"  > <br><br>
         <label>Last name: </label>
@@ -40,7 +60,10 @@
         <label>Male</label>
         <input type="radio" id="female" name="gender" value="female" >
         <label>Female</label>
+        </div>
          <br><br> 
+         <div class="form-1">
+         <h3>City</h3>
          <label>City:</label>
          <select id="city" name="city">
             <option value="amman">Amman</option>
@@ -48,8 +71,9 @@
             <option value="Ramtha">Ramtha</option>
             <option value="zarqa">Zarqa</option>
         </select>
+        </div>
         <br><br>
-        <input type="submit" value="Submit" >
+        <input type="submit" value="Register" >
     </form>
     </div>
 
