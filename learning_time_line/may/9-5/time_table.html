@@ -8,20 +8,32 @@
     <style>
         h1 {
             text-align: center;
+            margin-bottom: 30px;
+            margin-top: 30px;
         }
-        .roman {
-            unicode-bidi: U+02160;
-            direction: rtl;
-        }
+        
         td ,th {
             border: 1px solid ;
-            padding: 10px
+            padding: 10px ;
+            text-align: center ;
          }
+         table {
+            border-collapse: collapse;
+            border: 4px solid ;
+            
+         }
+         body {
+              display: flex;
+              flex-direction: column ;  
+              justify-content: center; 
+              align-items: center;  
+              height: 600 px;
+                }
     </style>
 </head>
 <body>
     
-
+    
     <h1>Time Table</h1>
 
     <table>
@@ -37,15 +49,62 @@
             <th> &#x2166; <br> 3:10-4:00 </th></th>
             
         </tr>
+            
         <tr>
+            <th>Monday</th>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td rowspan="6">LUNCH</td>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
             
         </tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+            
+            
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3">SEMINAR</td>
+            <td>Sports</td>
+        </tr>
+        
     </table>
-
+    <h3> qusai al-senjalawi</h3>
+    
 </body>
 </html>
