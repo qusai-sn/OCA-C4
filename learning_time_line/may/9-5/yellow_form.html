@@ -20,7 +20,7 @@
             flex-direction: column;  
             justify-content: center; 
             align-items: center;  
-            height: 600px;
+            height:  max-content;
             margin: 0;  
             padding: 0;  
         }
@@ -37,6 +37,11 @@
             flex-direction: column;
             align-items: center;
         }
+        .field-1 {
+            padding: 20px;  
+            width: 300px;  
+            background-color: #f3ebb1;
+        }
         
     </style>
 </head>
@@ -45,6 +50,9 @@
      
      
     <hr>
+    <h1>Registeration Form</h1>
+    <br>
+    <h2>I made this manulay by CSS</h2>
     <form method="post" action="">
         <div class="form-1">
         <h3>personal Details</h3>
@@ -76,7 +84,44 @@
         <input type="submit" value="Register" >
     </form>
     </div>
+    <hr>
+    <br>
+    <br>
+    <h2>used here legend and fieldset tags</h2>
+    <form method="post" action="">
+        <fieldset class="field-1">
+        <legend>Personal Details</legend>
+        <label>First name: </label>
+        <input type="text" id="first_name" name="first_name" required  placeholder="qusai"  > <br><br>
+        <label>Last name: </label>
+        <input type="text" id="last_name" name="last_name" required placeholder="al-senjalawi" > <br><br>
+        <label>Email  :    </label>
+        <input type="email" id="email" name="email" required > <br><br>
+        <label>Gender: </label>
+        
+        <input type="radio" id="male" name="gender" value="male" >
+        <label>Male</label>
+        <input type="radio" id="female" name="gender" value="female" >
+        <label>Female</label>
+        </fieldset>
+         <br><br> 
 
+         <fieldset class="field-1">
+         <legend>City</legend>
+         <label>City:</label>
+         <select id="city" name="city">
+            <option value="amman">Amman</option>
+            <option value="irbid">Irbid</option>
+            <option value="Ramtha">Ramtha</option>
+            <option value="zarqa">Zarqa</option>
+        </select>
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Register" >
+    </form>
+    <br>
+    <br>
+    <br>
 
 </body>
 </html>
