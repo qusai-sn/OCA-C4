@@ -16,17 +16,35 @@
         .div-2 {
             border: 1px solid black ;
             width: 170px;
+            height: 450px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+             
         }
         .div-1 {
-            display: flex;
+            display: flex;      
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
             width: 600px;
-            height: max-content;
-        }
+            position: relative;
+             
 
+        }
+        .footer {
+            width: 170px;
+            height: 40px;
+            background-color: rgb(85, 85, 85);
+            position: absolute;
+            bottom: 0px;
+        }
+        .footer-p {
+            color: white;
+            position: relative;
+            top: 10px;
+        }
+        
     </style>
 
 
@@ -43,12 +61,15 @@
     <div class="div-2">
         <h3>A short heading</h3>
         <img  height="150px" width="170px" src="https://visitcentralflorida.org/wp-content/uploads/2020/08/Hot-Air-Balloon-Ride.jpg">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nostrum dignissimos veniam, odio ea nisi numquam nemo officiis dolorem, facilis quidem molestiae voluptatibus pariatur culpa eos quae non aliquam ducimus.</p>
+        <p> short content </p>
+        <div class="footer"> <span class="footer-p">I have a footer</span></div>
     </div>
     <div class="div-2">
         <h3>A short heading</h3>
         <img  height="150px" width="170px" src="https://visitcentralflorida.org/wp-content/uploads/2020/08/Hot-Air-Balloon-Ride.jpg">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nostrum dignissimos veniam, odio ea nisi numquam nemo officiis dolorem, facilis quidem molestiae voluptatibus pariatur culpa eos quae non aliquam ducimus.</p>
+        <div class="footer"> <span class="footer-p">I have a footer</span></div>
+    </div>
     </div>
     </div>
     
