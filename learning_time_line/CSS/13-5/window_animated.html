@@ -12,7 +12,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
-        
+        overflow: hidden;
     }
     .curtain {
         background-color: rgb(235, 235, 221);
@@ -24,7 +24,7 @@
         text-align: center;
         box-shadow: 5px 5px 5px gray;
         position: relative;
-     
+        top: 100%;
        
     
     }
@@ -54,17 +54,49 @@
         position: absolute;
         
     }
- 
+    @keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+    @keyframes slideUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
     </style>
 </head>
 <body>
-    
+    <button onclick="showWindow()">Show Window</button>
+    <button onclick="hideWindow()">Hide Window</button>  
     <div class="curtain" id="curtain">
         <div class="orange">
             <p>orange <span class="tm">TM</span></p>
         </div>
     </div>
-     
+    <script>
+        function hideWindow() {
+            var curtain = document.getElementById('curtain');
+            curtain.style.animationName = 'slideUp';  
+            curtain.style.animationFillMode = 'forwards'; 
+        }
+        function showWindow() {
+        var curtain = document.getElementById('curtain');
+        curtain.style.animationName = 'slideDown';  
+        curtain.style.animationDuration = '1s';
+        curtain.style.animationFillMode = 'forwards';  
+}
+    </script>
 
 </body>
 </html>
