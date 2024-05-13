@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+             
+        }
+        .green {
+            height: 70px;
+            width: 70px;
+            background-color: green;
+            margin: 1px;
+        }
+        .red {
+            height: 70px;
+            width: 70px;
+            background-color: red;
+            margin: 1px;
+
+        }
+        .container {
+            border: 1px dashed black;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+        }
+        .g-relative {
+            height: 70px;
+            width: 70px;
+            background-color: green;
+            margin: 1px;
+            position: relative;
+            top: 12px;
+            left:12px;
+        }
+        .g-absolute {
+            height: 70px;
+            width: 70px;
+            background-color: green;
+            margin: 1px;
+            position: absolute;
+            top: 12px;
+            left:12px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h4>position: static</h4>
+    <div class="container">
+        <div class="red">One</div>
+        <div class="green">Two</div>
+        <div class="red">Three</div>
+        <div class="red">Four</div>
+    </div>
+
+    <h4>position: relative</h4>
+    <div>
+        <div class="container">
+            <div class="red">One</div>
+            <div class="g-relative">Two</div>
+            <div class="red">Three</div>
+            <div class="red">Four</div>
+        </div>
+    </div>
+
+    <h4>position: absolute</h4>
+    <div>
+        <div class="container">
+            <div class="red">One</div>
+            <div class="g-absolute">Two</div>
+            <div class="red">Three</div>
+            <div class="red">Four</div>
+        </div>
+    </div>
+    
+</body>
+</html>
