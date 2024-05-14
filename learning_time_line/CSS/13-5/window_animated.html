@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window</title>
+
+
+    <style> 
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        overflow: hidden;
+    }
+    .curtain {
+        background-color: rgb(235, 235, 221);
+        width: 300px ;
+        height: 550px ;
+        border: 1px solid rgb(239, 235, 235);
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 5px 5px 5px gray;
+        position: relative;
+        top: 100%;
+       
+    
+    }
+    .img {
+        margin: auto;
+        position: relative;
+        top: 200px;
+    }
+    .orange {
+        height: 120px;
+        width: 120px;
+        background-color: rgb(250, 80, 18);
+        margin: auto;
+        position: relative;
+        top: 200px;
+    }
+    p {
+        color: white;
+        font-size: x-large;
+        padding-top: 70%;
+        padding-right: 20%;
+        font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .tm {
+        color: white;
+        font-size:   x-small;
+        position: absolute;
+        
+    }
+    @keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+    @keyframes slideUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+    </style>
+</head>
+<body>
+    <button onclick="showWindow()">Show Window</button>
+    <button onclick="hideWindow()">Hide Window</button>  
+    <div class="curtain" id="curtain">
+        <div class="orange">
+            <p>orange <span class="tm">TM</span></p>
+        </div>
+    </div>
+    <script>
+        function hideWindow() {
+            var curtain = document.getElementById('curtain');
+            curtain.style.animationName = 'slideUp';  
+            curtain.style.animationFillMode = 'forwards'; 
+        }
+        function showWindow() {
+        var curtain = document.getElementById('curtain');
+        curtain.style.animationName = 'slideDown';  
+        curtain.style.animationDuration = '1s';
+        curtain.style.animationFillMode = 'forwards';  
+}
+    </script>
+
+</body>
+</html>
+
+ 
+  
