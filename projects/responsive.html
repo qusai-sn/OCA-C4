@@ -5,27 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>responsive</title>
      <style>
-        @media (max-width: 500px ) and (min-width: 400px ) {
+        
+     
             body {
-                color : blue ;
-            }
-    
-        }
-        @media screen and (max-width: 992px) {
-            body {
-                background-color: red;
-            }
-            }
-        @media screen and (max-width: 600px) {
-            body {
-                background-color: olive;
-                display: flex ;
-                flex-direction: row;
+                height: 700px;
+                display:flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                 
             }
+            .div-1 {
+                height: 200px;
+                width: 300px;
+                background-color: blueviolet;
+                border: 2px dashed black;
             }
+
+            @media (max-width: 500px ) and (min-width: 100px ) {
+                .div-1 {
+                height: 400px;
+                width: 150px;
+                background-color: blue;
+                border: 2px dashed black;
+            }
+              }
+            @media (max-width: 700px ) and (min-width: 500px ) {
+                .div-1 {
+                height: 100px;
+                width: 500px;
+                background-color: chocolate;
+                border: 2px dashed black;
+            }
+              }  
+              @media (max-width: 1000px ) and (min-width: 700px ) {
+                .div-1 {
+                height: 300px;
+                width: 600px;
+                border-radius: 30%;
+                background-color: crimson;
+                border: 2px dashed black;
+            }
+              }
+            
     </style>
         
      
@@ -34,8 +55,11 @@
 </head>
 <body>
     
-    <div>
-        <h1>title 1</h1>
+    <div class="div-1">
+         <p> size one </p>
+         <p> size one </p>
+         <p> size one </p>
+         <p> size one </p>
     </div>
 
 </body>
