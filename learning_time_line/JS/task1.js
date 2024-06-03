@@ -13,7 +13,7 @@ let zakat = x*0.25 ;
 
 //2
  
- let array1 = [ 1,7 , 9 , 45, ];
+ let array1 = [ 1,7 , 9 , 45 ];
 
  let array2 = ["Str" , "alex","moh" ,'the','fox' ,'over' ,'lazy', 'dog'  ];
 
