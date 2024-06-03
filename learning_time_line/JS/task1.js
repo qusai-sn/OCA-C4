@@ -15,11 +15,18 @@ let zakat = x*0.025 ;
 
 //2
  
+// [ 1,7  9  45, ]
  let array1 = [ 1,7 , 9 , 45 ];
+
+ // ["Str" "alex","moh"
  let array2 = ["Str", "alex", "moh", "the", "fox", "over", "lazy", "dog"]; 
+
+ let array3 = ['the','foxx','over','lazy','dog'];
+
 
  // you forget the ","
  // you forget the declaration
+ // can't leave last element empty
 
 
  
@@ -73,10 +80,12 @@ Create a Variable to return the lastOfArray element in an array
 Ex: lastOfArray([1,4,5]) => 5
 Ex: lastOfArray(["t","u","g","x"]) => "x"
 */
-
+                      
 let array_1 = [1,4,5];
 let last_index =  array_1[ array_1.length - 1]
- 
+
+var chars = ["t","u","g","x"];
+let last_index2 =char[chars.length-1];
 /*
 6
 Using console make this array to be like this one (push, unshift, shift, pop)
@@ -84,6 +93,7 @@ var array = [0,5,7,9]
 => [1,3,4,6,8,9,10]
 */
 
+// this is text formating : 
 
 let arr4 =  [1,3,4,6,8,9,10];
 let text = "";
@@ -97,6 +107,20 @@ for(i of arr4){
 console.log("("+text+")")
 
 
+// another answer : 
+
+var array = [0, 5, 7, 9];
+
+array.pop();
+array.shift();
+array.shift();
+array.shift();
+array.unshift(1);
+array.push(10);
+
+array.push(3, 4, 6, 8);
+
+console.log(array);
 
 
 
