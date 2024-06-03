@@ -7,27 +7,30 @@
 //1 
 
 let x = 250 ;
-let zakat = x*0.25 ;
+let zakat = x*0.025 ;
+
+
 
 
 
 //2
  
  let array1 = [ 1,7 , 9 , 45 ];
-
- let array2 = ["Str" , "alex","moh" ,'the','fox' ,'over' ,'lazy', 'dog'  ];
+ let array2 = ["Str", "alex", "moh", "the", "fox", "over", "lazy", "dog"]; 
 
  // you forget the ","
  // you forget the declaration
 
 
  
- 
 // What the index of "Banana","Tomato"
 var fruits=["Tomato","Banana","Watermelon"];
 let index_Banana = fruits.indexOf("Banana"); //index is 1
 let indexTomato = fruits.indexOf("Tomato"); //index is 0
  
+
+
+
 
 
 /*
@@ -39,6 +42,13 @@ Create an array represents your:
 */
 
 let qusai = ["mansaf","boxing","the pianest"];
+let Food = ["mansaf", "shawarma"];
+let Sport = ["Football", "boxing", "MMA"];
+let Movie = ["the pianest", "one piece 10"];
+
+
+
+
 
 /*
 4
@@ -53,10 +63,13 @@ let array_two = ["t","u","g","x"];
 let index_one = array_one[0];
 let index_two = array_two[0];
 
+
+
+
+
 /*
 5
 Create a Variable to return the lastOfArray element in an array 
-
 Ex: lastOfArray([1,4,5]) => 5
 Ex: lastOfArray(["t","u","g","x"]) => "x"
 */
@@ -67,15 +80,26 @@ let last_index =  array_1[ array_1.length - 1]
 /*
 6
 Using console make this array to be like this one (push, unshift, shift, pop)
-
 var array = [0,5,7,9]
 => [1,3,4,6,8,9,10]
 */
+
+
+let arr4 =  [1,3,4,6,8,9,10];
 let text = "";
 for(i of arr4){
-    text += i +", "
+    if (i !== arr4[arr4.length-1]){
+        text += i +", ";
+    } else {
+        text += i;
+    }
 }
 console.log("("+text+")")
+
+
+
+
+
 
 /*
 7
@@ -85,9 +109,15 @@ var array2 = [5,9,-7,3.5]
 */
 var arr10 = [5,9,-7,3.5];
 arr10.pop();
-arr10.unshift();
+arr10.unshift(1, 3, 4, 6, 8);
 arr10.shift();
 arr10.pop();
+console.log(arr10); 
+
+
+
+
+
 
 /*
 8.
@@ -97,5 +127,6 @@ Sample Output : -4,-3,1,2,3,5,6,7,8
 */
 let arr9 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
 
-arr9 = arr9.sort();
+arr9.sort((a, b) => a - b);
 
+console.log(arr9);
