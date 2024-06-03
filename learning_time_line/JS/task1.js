@@ -6,7 +6,7 @@
 
 //1 
 
-
+let x = 250 ;
 let zakat = x*0.25 ;
 
 
@@ -19,7 +19,7 @@ let zakat = x*0.25 ;
 
  // you forget the ","
  // you forget the declaration
- 
+
 
  
  
