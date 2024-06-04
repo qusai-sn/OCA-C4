@@ -247,6 +247,14 @@ Ex: largerNubmer(5,3)
 => 5
 */
 
+function largerNubmer(x,y){
+    if(x>y){
+        return x ;
+    }else{
+        return y ;
+    }
+}
+
 
 /*
 12
@@ -265,8 +273,24 @@ Ex: smallerNubmer(5,99,3)
 
 Ex: smallerNubmer(5,3,3)
 => 3
-
 */
+
+function smallerNubmer(x,y,z){
+    if(x<y && x<z){
+        return x ;
+    }else if(y<x && y<z){
+        return y ;
+    }else if(z<x && z<y){
+        return z ;
+    }
+}
+
+
+
+
+
+
+
 
 /*
 13
@@ -294,6 +318,18 @@ Ex: shorterString("air","tr","car","github","by")
 
 */
 
+function shorterString(a,b,c,d,f){
+    let strings = [a,b,c,d,f];
+    let shortest_str = a ;
+
+    for(i of strings){
+        if(i.length < shortest_str.length){
+            shortest_str = i ;
+        }        
+    }
+    return shortest_str ;
+}
+
 /*
 14
 Write a function called longerString
@@ -309,6 +345,22 @@ Ex: longerString("air","schoo","car","github")
 try all the cases (change the order of the longestString)
 */
 
+
+function longerString(a,b,c,d){
+    let strings = [a,b,c,d];
+    let longest_str = a ;
+
+    for(i of strings){
+        if(i.length > longest_str.length){
+            longest_str = i ;
+        }        
+    }
+    return longest_str ;
+}
+
+
+
+
 /*
 15
 Write a function called isEven
@@ -322,6 +374,14 @@ Ex: isEven(2)
 => true
 
 */
+
+function isEven(x){
+    if(x%2==0){
+        return true ;
+    }else{
+        return false ;
+    }
+}
 
 
 /*
@@ -339,6 +399,17 @@ Ex: isOdd(5)
 */
 
 
+function isOdd(x){
+    if(x%2==0){
+        return false ;
+    }else{
+        return true ;
+    }
+}
+
+
+
+
 /*
 17
 Write a function called positive
@@ -351,6 +422,16 @@ Ex: positive(-5)
 => 5
 
 */
+
+function positive(x){
+    
+    if(x<0){
+        x = x*-1;
+        return x ; 
+    }else {
+        return x ; 
+    }
+}
 
 
 /*
@@ -366,6 +447,13 @@ Ex: fullName("Alex", "Mercer")
 => "Alex Mercer"
 */
 
+function fullName(f_name, l_name){
+    return f_name + " " + l_name ;
+}
+
+
+
+
 
 /*
 19
@@ -380,6 +468,12 @@ Ex: average(5,7,9,3,5)
 => 5.8
 
 */
+
+function average(a,b,c,d,f){
+    let avg = (a+b+c+d+f)/5;
+    return avg ;
+}
+
 
 
 /*
@@ -397,6 +491,11 @@ Ex: randomNumber()
 
 */
 
+function randomNumber() {
+    return Math.random();
+}
+
+
 /*
 21
 Write a function called randomBetweenNumbers
@@ -411,6 +510,10 @@ Ex: randomBetweenNumbers(3,100)
 => 23
 
 */
+
+function randomBetweenNumbers(min,max){
+    return Math.random()*(max-min) + min;
+}
 
 
 /*
@@ -434,6 +537,21 @@ Ex: scoreInUniversty(71)
 => "C"
 */
 
+function grades (x){
+
+    if(x=>95 && x<=100){
+        return "A";
+    } else if(x=>85 && x<=94){
+        return "B";
+    } else if(x=>70&&x<=84){
+        return "C";
+    } else if(x=>50 && x<=69){
+        return "D";
+    } else if(x=>0 && x<=49){
+        return "F";
+    }
+}
+
 
 /*
 23
@@ -450,8 +568,14 @@ Ex: counter()
 
 Ex: counter()
 => 3
-
 */
+
+function counter(){
+    let c = 0 ;
+    return function() {
+        return c++ ;
+    }
+}
 
 
 /*
@@ -485,3 +609,22 @@ Ex: resetCounter()
 Ex: counter()
 => 1
 */
+
+function counter() {
+    let c = 0;
+    let counter_Function = function() {
+        return c++;
+    };
+
+    counter_Function.reset = function() {
+        c = 0;
+    };
+
+    return counter_Function;
+}
+
+let c = counter();
+console.log(c()); 
+console.log(c()); 
+c.reset();
+console.log(c());
