@@ -10,6 +10,14 @@ Ex: tellFortune('software engineer', 'Jordan', 'Alice', 3);
 => "You will be a software engineer in Jordan, and married to Alice with 3 kids."
 */
 
+function tellFortune(n_children , p_name , location , job  ){
+
+return  "You will be a "+job+" in "+location+", and married to "+p_name+" with "+n_children+" kids." ;
+
+}
+console.log(tellFortune(4,"Alice","Italy","Doctor"));
+
+
 
 /*
 2
@@ -24,6 +32,11 @@ Ex: calculateDogAge(1);
 => "Your doggie is 7 years old in dog years!"
 */
 
+function calculateDogAge(age){
+    dog_age= age*7;
+    return "Your doggie is "+dog_age+" years old in dog years!"
+}
+console.log(calculateDogAge(3));
 
 /*
 3
@@ -37,6 +50,18 @@ Ex: calculateSupply(30, 3);
 => 'You will need 76650 cups of tea to last you until the ripe old age of 100;
 */
 
+function calculateSupply(age, amount_per_day){
+    const max_age = 100 ;
+
+    let life_span = (max_age - age)*365 ; //in days :T
+    let tea_need = life_span*amount_per_day; 
+    let result = "You will need "+tea_need+" cups of tea to last you until the ripe old age of 100";
+    return result ;
+}
+
+console.log(calculateSupply(23,2));
+
+
 
 /*
 4
@@ -48,21 +73,37 @@ Ex: greet("Adam")
 => "Hello Adam"
 */
 
+function greet(name){
+    return "hello "+name;
+}
+console.log(greet("qusai"));
+
 
 /*
 5
 what is the error:
+
 function double(cat) {
   return 2 * x;
 }
+
+// asnwer : u r using an un-defined variable x ;
+
 
 function double(7) {
   return 2 * 7;
 }
 
+// asnwer :u r using a value 7 in the parameter place , must be a variable tot a data ; 
+
+
 function double('7') {
   return 2 * 'x';
 }
+
+// asnwer : same mistake , u r using the value "7" in the parameter place + u r doing multiplication between string and number. 
+
+
 */
 
 
@@ -73,15 +114,36 @@ fix these functions:
 func double1(x {
   return 2 * x ;
 }
+*/
+// asnwer : 
 
+function double1(x) {
+    return 2 * x ;
+  } // it was destroyed , 
+
+/*
 functiondouble2 x)
 return 2 * x;
 }
+*/
+// asnwer : 
 
+function double2 (x){
+return 2 * x;
+}  
+
+/*
 function (x) double3 {
   return 2 * x;
 
 */
+
+// asnwer :
+
+function double3(x){
+    return 2 * x;
+}  
+
 
 
 /*
@@ -92,6 +154,11 @@ accept 1 parameter and calculate the cube of this number
 Ex: cube(4)
 => 64
 */
+
+function cube(x){
+    return x*x*x ;
+}
+console.log(cube(5));
 
 
 /*
@@ -104,6 +171,13 @@ Ex: multiply(3,4)
 Ex: multiply(5,4)
 => 20
 */
+
+function multiply(x,y){
+    return x*y;
+}
+console.log(multiply(3,4));
+
+
 
 
 /*
@@ -124,6 +198,16 @@ Ex: canIGetADrivingLicense(20)
 
 */
 
+function canIGetADrivingLicense(age){
+    const legal_age = 20-age ;
+    if(age=>20){
+      return "yes you can";  
+    }else{
+       return "please come back after "+legal_age+" years to get one" ; 
+    }
+}
+console.log(canIGetADrivingLicense(23));
+
 
 /*
 10
@@ -139,6 +223,16 @@ Ex: sameLength("tree","clue")
 Ex: sameLength("tree","car")
 => false
 */
+
+function sameLength(str1 , str2){
+    if(str1.length == str2.length ){
+        return true ;
+    }else {
+        return false ;
+    }
+}
+console.log(sameLength("hi","hello"));
+
 
 /*
 11
