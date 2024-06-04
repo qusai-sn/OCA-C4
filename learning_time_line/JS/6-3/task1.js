@@ -9,6 +9,7 @@
 let x = 250 ;
 let zakat = x*0.025 ;
 
+document.getElementById("q1").innerHTML = "zakat = " + zakat ;
 
 
 
@@ -23,6 +24,7 @@ let zakat = x*0.025 ;
 
  let array3 = ['the','foxx','over','lazy','dog'];
 
+ document.getElementById("q2").innerHTML = array2 ;
 
  // you forget the ","
  // you forget the declaration
@@ -35,6 +37,7 @@ var fruits=["Tomato","Banana","Watermelon"];
 let index_Banana = fruits.indexOf("Banana"); //index is 1
 let indexTomato = fruits.indexOf("Tomato"); //index is 0
  
+document.getElementById("q3").innerHTML = "banana index is : " + index_Banana + " Tomato index is : " + indexTomato ;
 
 
 
@@ -53,6 +56,8 @@ let Food = ["mansaf", "shawarma"];
 let Sport = ["Football", "boxing", "MMA"];
 let Movie = ["the pianest", "one piece 10"];
 
+document.getElementById("q4").innerHTML = qusai;
+
 
 
 
@@ -70,6 +75,7 @@ let array_two = ["t","u","g","x"];
 let index_one = array_one[0];
 let index_two = array_two[0];
 
+document.getElementById("q5").innerHTML = "first element is : " + index_one + " ," + index_two ;
 
 
 
@@ -86,6 +92,9 @@ let last_index =  array_1[ array_1.length - 1]
 
 var chars = ["t","u","g","x"];
 let last_index2 =char[chars.length-1];
+
+document.getElementById("q6").innerHTML = "last index is : " + last_index2 ;
+
 /*
 6
 Using console make this array to be like this one (push, unshift, shift, pop)
@@ -104,7 +113,8 @@ for(i of arr4){
         text += i;
     }
 }
-console.log("("+text+")")
+let final = "("+text+")";
+document.getElementById("q7").innerHTML = "the array after reformating : " +  final;
 
 
 // another answer : 
@@ -121,6 +131,7 @@ array.push(10);
 array.push(3, 4, 6, 8);
 
 console.log(array);
+document.getElementById("q8").innerHTML = "the array  : " +  array;
 
 
 
@@ -138,6 +149,7 @@ arr10.shift();
 arr10.pop();
 console.log(arr10); 
 
+document.getElementById("q9").innerHTML = "the array 10 : " +  arr10;
 
 
 
@@ -154,3 +166,5 @@ let arr9 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
 arr9.sort((a, b) => a - b);
 
 console.log(arr9);
+
+document.getElementById("q10").innerHTML = "the array 9 : " +  arr9;
