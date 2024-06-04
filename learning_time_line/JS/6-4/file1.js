@@ -100,7 +100,7 @@ Output : 0 */
 /******* Start Your Code *********/
   
 
-function largest (a, b ,c ,d ,f ){
+function largest(a, b ,c ,d ,f ){
 
     
     if (a>b && a>c && a>d && a>f){
@@ -117,7 +117,7 @@ function largest (a, b ,c ,d ,f ){
 
 }
  
-
+largest(-5, -2, -6, 0, -1);
 
  /******* End Your Code ********* */
 
@@ -137,4 +137,5 @@ function hello(x,y){
 
 }
 
+hello(3,7);
  /******* End Your Code ********* */

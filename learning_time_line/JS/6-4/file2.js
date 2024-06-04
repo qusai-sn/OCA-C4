@@ -9,7 +9,7 @@ equal or between 90 and 100 ===> A
 
 
 
-let x = 0 ; 
+ 
 
 function grades (x){
 
@@ -28,3 +28,6 @@ function grades (x){
     }
 
 }
+
+let grade = grades(77);
+alert(grade);
