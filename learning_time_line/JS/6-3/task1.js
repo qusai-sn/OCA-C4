@@ -40,7 +40,9 @@ let indexTomato = fruits.indexOf("Tomato"); //index is 0
 document.getElementById("q3").innerHTML = "banana index is : " + index_Banana + " Tomato index is : " + indexTomato ;
 
 
+// let array_4 = [1,2,3,4,5,6,7];
 
+// lex x = array_4.indexOf(5);
 
 
 /*

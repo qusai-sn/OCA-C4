@@ -1,0 +1,13 @@
+body { 
+    margin : auto ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pr-1 { 
+    background-color: yellow;
+    font-size: 40px;
+}
