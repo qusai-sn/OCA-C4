@@ -10,11 +10,13 @@
     
 
  
-    <label for="cars">Choose a country:</label>
-    <select name="flags" id="flags" form="carform">
+    <label >Choose a country:</label>
+    <select name="flags" id="flags"  onchange="change_flag(this.value)"> 
       <option value="images/Jordan.png">jordan</option>
       <option value="images/Palestine.png">paletine</option>
-      <option value="one-piece">one-piece</option>
+      <option value="images/one-piece.png">one-piece</option>
+      <option value="images/alramtha.png">Al-Ramtha City</option>
+       
     </select>
 
     <br>

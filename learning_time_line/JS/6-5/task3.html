@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 3</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    
+
+ 
+     <div class="selectors"> 
+
+         <select name="font-family" id="font-family"  onchange="change_family(this.value)"> 
+           <option value="Arial, sans-serif">Arial</option>
+           <option value="Times New Roman">Times New Roman</option>
+           <option value="Verdana, Geneva, sans-serif">Verdana</option>
+            
+         </select>
+         <select name="font-size" id="font-size"  onchange="change_size(this.value)"> 
+            <option value="10px">10px</option>
+            <option value="20px">20px</option>
+            <option value="30px">30px</option>
+            <option value="40px">40px</option>
+             
+          </select>
+
+          <input type="checkbox" id="italic" onchange="change_style()">
+          <label for="italic">Italic</label>
+        
+          <input type="checkbox" id="bold" onchange="change_style()" >
+          <label for="bold">Bold</label>
+        
+          <input type="checkbox" id="underline" onchange="change_style()">
+          <label for="underline">Underline</label>
+
+     </div>
+    
+
+    <br>
+
+    <div class="text-div">
+        <p id="p-2"> you can't change this text style</p>
+    </div>
+     
+
+
+
+
+
+
+    <script src="dom.js"></script>
+</body>
+</html>
