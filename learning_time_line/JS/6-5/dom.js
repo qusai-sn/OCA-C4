@@ -1,13 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
+ 
 
 
-
+  
 let password = document.getElementById("password");
 let repeat_password = document.getElementById("repeat-password");
 document.getElementById("submit").style.visibility = "hidden";  
 
-let error_count = 0 ;
-password.addEventListener("change" , function(){
+
+ password.addEventListener("change" , function(){
 
    let pass_string = password.value ; 
    let re_pass_string = repeat_password.value ;
@@ -70,28 +70,8 @@ repeat_password.addEventListener("change" , function(){
 
 
 
-let click_count = 0;
-document.getElementById("blue").addEventListener("click", function(){
-    if (click_count %2===0) {
-        document.getElementById("blue").style.backgroundColor = "red";
-        console.log("clicked red");
-    } else {
-        document.getElementById("blue").style.backgroundColor = "blue";
-        console.log("clicked blue");
-    }
-    
-    click_count++;
-});
 
 
-
-
-document.getElementById("p1").addEventListener("mouseover", function(){
-  this.innerHTML="can I help you !";  
-});
-document.getElementById("p1").addEventListener("mouseout", function() {
-  this.innerHTML="Hello world";  
-});
 
 
 
@@ -124,6 +104,6 @@ function change_family(value) {
     p_2.style.textDecoration = underline.checked ? "underline" : "none";
   }
 
-});
+ 
 
 
