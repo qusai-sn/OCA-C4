@@ -49,3 +49,18 @@ body {
     width: 200px;
     background-color: blue;
  }
+
+ .passwrd { 
+    border:  2px solid black ;
+    padding: 30px;
+    height: 110px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+ }
+
+ .error{
+    color: red;
+    font-weight: 600;
+ }
