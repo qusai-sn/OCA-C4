@@ -7,11 +7,18 @@ document.getElementById("p1").addEventListener("mouseout", function() {
 });
 
 
- 
+
+document.getElementById("blue").addEventListener("click", function(){
+  document.getElementById("blue").style.backgroundColor = "red";
+});
+
+
+
+
+
   function change_flag(value) {
     document.getElementById("img").src = value;
   }
-
   function change_size(value) {
     document.getElementById("p-2").style.fontSize = value;
   }
@@ -29,3 +36,4 @@ document.getElementById("p1").addEventListener("mouseout", function() {
     p_2.style.fontWeight = bold.checked ? "bold" : "normal";
     p_2.style.textDecoration = underline.checked ? "underline" : "none";
   }
+
