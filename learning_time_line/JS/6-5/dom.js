@@ -1,11 +1,10 @@
  
 
-
+// password check : 
   
 let password = document.getElementById("password");
 let repeat_password = document.getElementById("repeat-password");
 document.getElementById("submit").style.visibility = "hidden";  
-
 
  password.addEventListener("change" , function(){
 
@@ -40,6 +39,7 @@ document.getElementById("submit").style.visibility = "hidden";
      
 });
 
+
 repeat_password.addEventListener("change" , function(){
 
   let pass_string = password.value ; 
@@ -68,19 +68,7 @@ repeat_password.addEventListener("change" , function(){
  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Select flag : 
 
 
 function change_flag(value) {

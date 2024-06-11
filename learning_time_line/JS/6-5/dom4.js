@@ -1,3 +1,6 @@
+
+// change paragraph text : 
+
 document.getElementById("p1").addEventListener("mouseover", function(){
     this.innerHTML="can I help you !";  
   });

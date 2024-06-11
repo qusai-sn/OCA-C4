@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container-2">  
+    <h2>Choose Animal :</h2>
+    <select name="flags" id="flags"  onchange="change_image(this.value)" style="font-size: 18px;"> 
+      <option value="Cats">cat</option>
+      <option value="Dogs">dog</option>
+      <option value="Bees">Bees</option>
+      <option value="Butterfly">Butterfly</option>
+       
+    </select>
+
+    <br>
+
+    <div class="container-1">
+        <h3 id="animal-id"></h3>
+        <img id="img" src="still-loading-thats-the-caption.png" alt="">
+        <h3 id="animal-name"></h3>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+    <script src="task.js"></script>
+</body>
+</html>
