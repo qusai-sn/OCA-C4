@@ -1,0 +1,18 @@
+ .error { 
+    color: red;
+    font-weight: 700;
+ }
+
+body { 
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-1 { 
+    border: 2px dashed black;
+    border-radius: 20px;
+    padding: 30px;
+}

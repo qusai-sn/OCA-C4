@@ -1,6 +1,8 @@
-document.getElementById('userForm').addEventListener('submit', function (e) {
-    e.preventDefault();
+document.getElementById('userForm').addEventListener('submit', function (x) {
+    x.preventDefault();
 
+    let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    const checkedValues = Array.from(checkboxes).filter(checkbox => checkbox.checked).map(checkbox => checkbox.value); // idk HOW BUT IT WORKS 
     const formData = {
         name: document.getElementById('name').value,
         age: document.getElementById('age').value,
@@ -11,6 +13,7 @@ document.getElementById('userForm').addEventListener('submit', function (e) {
         majorUniversity: document.getElementById('majorUniversity').value,
         siblingsNumber: document.getElementById('siblingsNumber').value,
         siblingsDescription: document.getElementById('siblingsDescription').value,
+        checkboxes : checkedValues
     };
 
     // let name = document.getElementById('name').value;
@@ -62,6 +65,9 @@ function Card(data) {
     const siblingsDes = document.createElement('p');
     siblingsDes.innerHTML = data.siblingsDescription;
 
+    const coding = document.createElement('p');
+    coding.innerHTML = data.checkboxes; //THANKS GOD IT WORKS !!! CELEBRATION !
+
     let con = document.getElementById('cardsContainer');
     
     con.appendChild(name);
@@ -73,6 +79,7 @@ function Card(data) {
     con.appendChild(uni);
     con.appendChild(siblingsNumber);
     con.appendChild(siblingsDes);
+    con.appendChild(coding);
 
 
 
