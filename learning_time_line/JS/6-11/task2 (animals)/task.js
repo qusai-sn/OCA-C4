@@ -3,10 +3,44 @@
 
   // [{"name":"Cats","image":"https://static.toiimg.com/thumb/msid-107091667,width-960,height-1280,resizemode-6.cms","id":"1"},{"name":"Dogs","image":"https://static.vecteezy.com/system/resources/thumbnails/005/857/332/small_2x/funny-portrait-of-cute-corgi-dog-outdoors-free-photo.jpg","id":"2"},{"name":"Bees","image":"https://static.scientificamerican.com/sciam/cache/file/B4B598E9-EC22-49E3-878F75A8BBA41699_source.jpg?w=1200","id":"3"},{"name":"Butterfly","image":"https://t3.ftcdn.net/jpg/03/49/57/86/240_F_349578650_GFxBqYI9mLOXCiN4FDS4wsIWKzJVGU5M.jpg","id":"4"}]
  
- function change_image(value) {
 
   fetch('https://66681676f53957909ff67af8.mockapi.io/users/Animals').then((response) => response.json()).then((animals) => {
-    
+
+    function CreateOption (name){
+
+      const option = document.createElement('option');
+      option.innerHTML = name ;
+      option.value = name ;
+
+      console.log(name);
+      return option ;
+  
+    }
+
+
+    let selector = document.getElementById("pets") ;
+
+    animals.forEach((animal) => {
+
+
+                  const name = animal.name;
+             
+                  const option = CreateOption(name);
+                  
+                  selector.appendChild(option);
+                   
+              });
+            });
+   
+          
+
+ function change_image(value) {
+
+  
+  fetch('https://66681676f53957909ff67af8.mockapi.io/users/Animals').then((response) => response.json()).then((animals) => {
+
+
+
     const selected = animals.find(
 
       function(x) {
