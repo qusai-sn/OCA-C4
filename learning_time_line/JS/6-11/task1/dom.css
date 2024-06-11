@@ -1,0 +1,62 @@
+
+
+body { 
+    margin : auto ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.examples{
+    margin : auto ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{ 
+    height: 150px;
+    width: 250px;
+    margin: 30px;
+    background-color: blueviolet;
+    border: dashed 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p1 { 
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-div {
+    justify-content: space-around;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#card-container div { 
+    margin: 30px 20px;
+}
