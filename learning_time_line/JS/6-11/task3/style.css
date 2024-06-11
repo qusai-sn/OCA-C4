@@ -1,0 +1,36 @@
+.card {
+     
+     
+    border: 2px dashed black;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    width: 400px;
+}
+
+.content { 
+    height: 800px;
+     
+    flex-direction: column;
+    width: 400px;
+    justify-content: space-around;
+    border: 2px dashed black;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.form-1 { 
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
