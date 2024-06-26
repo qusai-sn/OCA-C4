@@ -1,0 +1,15 @@
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\bin\Debug\net8.0\CSharp_tasks.exe
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\bin\Debug\net8.0\CSharp_tasks.deps.json
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\bin\Debug\net8.0\CSharp_tasks.runtimeconfig.json
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\bin\Debug\net8.0\CSharp_tasks.dll
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\bin\Debug\net8.0\CSharp_tasks.pdb
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\CSharp_tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\CSharp_tasks.AssemblyInfoInputs.cache
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\CSharp_tasks.AssemblyInfo.cs
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\CSharp_tasks.csproj.CoreCompileInputs.cache
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\CSharp_tasks.sourcelink.json
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\CSharp_tasks.dll
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\refint\CSharp_tasks.dll
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\CSharp_tasks.pdb
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\CSharp_tasks.genruntimeconfig.cache
+C:\Users\Orange Academy\Desktop\new\OCA-C4\learning_time_line\C#\6-25\CSharp_tasks\CSharp_tasks\obj\Debug\net8.0\ref\CSharp_tasks.dll

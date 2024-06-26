@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange Academy\\Desktop\\new\\OCA-C4\\learning_time_line\\C#\\6-26\\tasks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2D614E-C588-492B-89F7-605E50B4F370}|tasks\\tasks.csproj|c:\\users\\orange academy\\desktop\\new\\oca-c4\\learning_time_line\\c#\\6-26\\tasks\\tasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2D614E-C588-492B-89F7-605E50B4F370}|tasks\\tasks.csproj|solutionrelative:tasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\new\\OCA-C4\\learning_time_line\\C#\\6-26\\tasks\\tasks\\Program.cs",
+              "RelativeDocumentMoniker": "tasks\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\new\\OCA-C4\\learning_time_line\\C#\\6-26\\tasks\\tasks\\Program.cs",
+              "RelativeToolTip": "tasks\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwLQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T16:05:32.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
