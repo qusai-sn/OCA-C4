@@ -1,0 +1,15 @@
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\bin\Debug\net8.0\CSharp_task.exe
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\bin\Debug\net8.0\CSharp_task.deps.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\bin\Debug\net8.0\CSharp_task.runtimeconfig.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\bin\Debug\net8.0\CSharp_task.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\bin\Debug\net8.0\CSharp_task.pdb
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\CSharp_task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\CSharp_task.AssemblyInfoInputs.cache
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\CSharp_task.AssemblyInfo.cs
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\CSharp_task.csproj.CoreCompileInputs.cache
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\CSharp_task.sourcelink.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\CSharp_task.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\refint\CSharp_task.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\CSharp_task.pdb
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\CSharp_task.genruntimeconfig.cache
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\C#\6-27\CSharp_task\CSharp_task\obj\Debug\net8.0\ref\CSharp_task.dll

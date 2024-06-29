@@ -16,18 +16,9 @@ namespace Tasks
             string input2 = Console.ReadLine();
             int num2 = int.Parse(input2);
 
-            if (num1 > num2)
-            {
-                Console.WriteLine(num1);
-            }
-            else if (num1 < num2)
-            {
-                Console.WriteLine(num2);
-            }
-            else
-            {
-                Console.WriteLine($"{num1} is equal to {num2}");
-            }
+            int[] larger = {num1 , num2 };
+            Array.Sort(larger);
+            Console.Write($"the larger number is {larger[1]}");
 
 
             Console.Write("Task 2 : \n");
@@ -35,101 +26,27 @@ namespace Tasks
             Console.Write("enter a number");
 
             string input3 = Console.ReadLine();
+            string[] signs = {"-","0","+"};
             int num3 = int.Parse(input3);
+            int sign = Math.Sign(num3);
+            Console.WriteLine(signs[sign+1]);
 
-            if (num3 > 0)
-            {
-                Console.WriteLine("+");
-            }
-            else
-            {
-                Console.WriteLine("-");
-            }
+
 
             Console.Write("Task 3 : \n");
-            int x = 0;
-            int y = -1;
-            int z = 4;
-
-            int smallest, middle, largest;
-
-            if (x <= y && x <= z)
-            {
-                smallest = x;
-                if (y <= z)
-                {
-                    middle = y;
-                    largest = z;
-                }
-                else
-                {
-                    middle = z;
-                    largest = y;
-                }
-            }
-            else if (y <= x && y <= z)
-            {
-                smallest = y;
-                if (x <= z)
-                {
-                    middle = x;
-                    largest = z;
-                }
-                else
-                {
-                    middle = z;
-                    largest = x;
-                }
-            }
-            else
-            {
-                smallest = z;
-                if (x <= y)
-                {
-                    middle = x;
-                    largest = y;
-                }
-                else
-                {
-                    middle = y;
-                    largest = x;
-                }
-            }
+            
+            int[] numbers = { 5, 2, 9 };
+            Array.Sort(numbers);
 
 
-            Console.WriteLine($"The numbers in  order are: {smallest}, {middle}, {largest}");
+            Console.WriteLine($"The numbers in  order are: min is {numbers[0]} , mid is {numbers[1]} , max is {numbers[2]}");
 
             Console.Write("Task 4 : \n");
 
-            int a = -5;
-            int b = -2;
-            int c = -6;
-            int d = 0;
-            int e = -1;
+            int[] numbers2 = { 5, 2, 9 };
+            Array.Sort(numbers2);
 
-            int max = a;
-
-            if (b > max)
-            {
-                max = b;
-            }
-
-            if (c > max)
-            {
-                max = c;
-            }
-
-            if (d > max)
-            {
-                max = d;
-            }
-
-            if (e > max)
-            {
-                max = e;
-            }
-
-            Console.WriteLine($"Max  is: {max}");
+            Console.WriteLine($"Max  is: {numbers2[numbers2.Length-1]}");
 
 
 
@@ -170,24 +87,27 @@ namespace Tasks
 
             Console.WriteLine($"{hours_2} Hours, {remains} Minutes ");
 
+
+
             Console.Write("Task 8 : \n");
 
             string[] sentences = new string[]
             {
                 "uuuuu",
-                "ooooo",
-                "eeeeeeeeee",
-                "ssssssssss",
-                "TTTTTT"
+                "oooo3534o",
+                "eeeee435eee234ee",
+                "sssss5ss423sss",
+                "TTTT534543TT"
             };
 
- 
-            foreach (string sentence in sentences)
-            {
-                Console.WriteLine($"Sentence: {sentence}");
-                Console.WriteLine($"Length: {sentence.Length}");
-                Console.WriteLine(); 
-            }
+            int minLength = sentences.Min(s => s.Length);
+
+            Console.WriteLine(sentences[0].Substring(0, minLength));
+            Console.WriteLine(sentences[1].Substring(0, minLength));
+            Console.WriteLine(sentences[2].Substring(0, minLength));
+            Console.WriteLine(sentences[3].Substring(0, minLength));
+            Console.WriteLine(sentences[4].Substring(0, minLength));
+
         }
 
     }
