@@ -39,6 +39,18 @@ class Program
 
         Console.WriteLine($"Age in days: {ageInDays}");
 
+
+        Console.WriteLine($"The object person :");
+
+        Person person = new Person();
+        person.Age = 20;
+        person.Phone = "0778976885";
+
+        Console.WriteLine(person.Age);
+        Console.WriteLine(person.Phone);
+
+
+
     }
 
     //#1:
@@ -92,11 +104,13 @@ class Program
     class Person
     {
         private int age = 18;
-        private string gender;
-        private string name;
-        private string email;
-        private string id;
+        private string gender = "male";
+        private string name = "mohammad";
+        private string email = "mohammad@gmail.com";
+        private string id = 18329304;
         private string phone = "077";
+
+
 
         // Properties
         public int Age
