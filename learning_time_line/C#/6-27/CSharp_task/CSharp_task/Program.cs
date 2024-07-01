@@ -65,7 +65,7 @@ class Program
         for (int i = 1; i < 100; i += 2)
         {
             oddText += i.ToString() + ", ";
-            odds += 1;
+            odds += i;
         }
 
         Console.WriteLine($"the sum of add numbers is {odds}");
