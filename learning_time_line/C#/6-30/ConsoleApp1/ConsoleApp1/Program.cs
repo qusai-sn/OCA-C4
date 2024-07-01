@@ -107,7 +107,7 @@ class Program
         private string gender = "male";
         private string name = "mohammad";
         private string email = "mohammad@gmail.com";
-        private string id = 18329304;
+        private string id = "18329304";
         private string phone = "077";
 
 
