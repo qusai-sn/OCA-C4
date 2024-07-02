@@ -44,7 +44,7 @@ class Program
 
         Person person = new Person();
         person.Age = 20;
-        person.Phone = "0778976885";
+        person.Phone = "08976885";
 
         Console.WriteLine(person.Age);
         Console.WriteLine(person.Phone);
