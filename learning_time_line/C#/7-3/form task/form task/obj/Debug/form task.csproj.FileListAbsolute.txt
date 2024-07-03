@@ -1,0 +1,72 @@
+C:\Users\Orange Academy\source\repos\form task\form task\bin\form task.dll.config
+C:\Users\Orange Academy\source\repos\form task\form task\bin\form task.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\form task.pdb
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\csc.exe
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\csc.exe.config
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\csc.rsp
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\csi.exe
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\csi.exe.config
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\csi.rsp
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.AppContext.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Console.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.IO.Compression.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Net.Http.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.ValueTuple.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\vbc.exe
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\vbc.exe.config
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\vbc.rsp
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\VBCSCompiler.exe
+C:\Users\Orange Academy\source\repos\form task\form task\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Antlr3.Runtime.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Newtonsoft.Json.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\System.Web.Optimization.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\WebGrease.dll
+C:\Users\Orange Academy\source\repos\form task\form task\bin\System.Web.Optimization.xml
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Newtonsoft.Json.xml
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Antlr3.Runtime.pdb
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Orange Academy\source\repos\form task\form task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Orange Academy\source\repos\form task\form task\obj\Debug\form task.csproj.AssemblyReference.cache
+C:\Users\Orange Academy\source\repos\form task\form task\obj\Debug\form task.csproj.CoreCompileInputs.cache
+C:\Users\Orange Academy\source\repos\form task\form task\obj\Debug\form task.csproj.Up2Date
+C:\Users\Orange Academy\source\repos\form task\form task\obj\Debug\form task.dll
+C:\Users\Orange Academy\source\repos\form task\form task\obj\Debug\form task.pdb
