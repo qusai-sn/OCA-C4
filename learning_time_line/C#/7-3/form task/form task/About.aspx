@@ -3,25 +3,24 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <style>
         .btn-add {
-            background-color: #28a745; /* Green */
+            background-color: #28a745; 
             color: white;
         }
         
         .btn-multiply {
-            background-color: #007bff; /* Blue */
+            background-color: #007bff;  
             color: white;
         }
         
         .btn-subtract {
-            background-color: #dc3545; /* Red */
+            background-color: #dc3545;  
             color: white;
         }
     </style>
     
     <main aria-labelledby="title">
         <h2 id="title"><%: Title %></h2>
-        <h3>Your application description page.</h3>
-        
+        <h3>Your application description page.</h3
         <div>
             <h4>Calculator:</h4>
             
