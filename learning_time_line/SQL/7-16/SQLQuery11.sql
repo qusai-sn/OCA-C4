@@ -1,10 +1,10 @@
 CREATE TABLE teachers (  
-    teacher_id INT PRIMARY KEY, 
-    teacher_name VARCHAR(30)
+    teacher_id INT PRIMARY KEY IDENTITY(1,1), 
+    teacher_name VARCHAR(30) NOT NULL 
 );
 
 CREATE TABLE teacher_details (  
-    id INT UNIQUE, 
+    id INT UNIQUE , 
     email VARCHAR(30), 
      phone VARCHAR(15),
     teacher_address VARCHAR(50),   
