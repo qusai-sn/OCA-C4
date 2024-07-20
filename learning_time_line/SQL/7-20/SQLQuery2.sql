@@ -71,20 +71,19 @@ CREATE TABLE Students_Courses (
     FOREIGN KEY (CourseID) REFERENCES Courses(CourseID),
     PRIMARY KEY (StudentID, CourseID)
 );
-
  INSERT INTO Students (Name, DateOfBirth, Address)
 VALUES 
-('John Doe', '2005-05-15', '123 Maple St'),
-('Jane Smith', '2006-08-22', '456 Oak St'),
-('Alice Johnson', '2005-12-30', '789 Pine St'),
-('Bob Brown', '2006-03-12', '101 Elm St');
+('Qusai Omar', '2000-05-15', '123 Maple St'),
+('Mohammed Fawareh', '1998-08-22', '456 Oak St'),
+('Mustafa Almomani', '1996-12-30', '789 Pine St'),
+('Malek Ibdah', '1994-03-12', '101 Elm St');
 
  INSERT INTO family_info (StudentID, FatherName, FatherContact, MotherName, MotherContact)
 VALUES 
-(1, 'Richard Doe', '555-1234', 'Emily Doe', '555-5678'),
-(2, 'Michael Smith', '555-2345', 'Linda Smith', '555-6789'),
-(3, 'James Johnson', '555-3456', 'Karen Johnson', '555-7890'),
-(4, 'Thomas Brown', '555-4567', 'Jennifer Brown', '555-8901');
+(1, 'Omar Omar', '555-1111', 'Lina Omar', '555-2222'),
+(2, 'Ahmed Fawareh', '555-3333', 'Mariam Fawareh', '555-4444'),
+(3, 'Ibrahim Almomani', '555-5555', 'Sara Almomani', '555-6666'),
+(4, 'Hassan Ibdah', '555-7777', 'Nadia Ibdah', '555-8888');
 
  INSERT INTO Courses (CourseName, Course_Description)
 VALUES 
