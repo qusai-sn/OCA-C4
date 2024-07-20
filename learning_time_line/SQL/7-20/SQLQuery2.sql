@@ -39,6 +39,7 @@
     FOREIGN KEY (ClassID) REFERENCES Classes(ClassID)
 );
 
+
  CREATE TABLE Assignment_Student (
     AssignmentID INT,
     StudentID INT,
@@ -87,7 +88,7 @@ VALUES
 
  INSERT INTO Courses (CourseName, Course_Description)
 VALUES 
-('Mathematics', 'An introduction to basic mathematics concepts.'),
+('Mathematics', 'A introduction to basic mathematics concepts.'),
 ('Science', 'A comprehensive study of physical and biological sciences.'),
 ('History', 'Exploring historical events and contexts.'),
 ('Computer Science', 'Introduction to programming and computer science principles.');
