@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\mvc\\7-22\\masterpiece\\masterpiece\\views\\shared\\_useractions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\shared\\_useractions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\user\\explore_events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\user\\explore_events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\user\\buy_tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\user\\buy_tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\admin\\createtickets_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\admin\\createtickets_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\admin\\manege_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\admin\\manege_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\admin\\create_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\admin\\create_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T14:04:22.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:56:09.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:54:43.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Home\\register.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Home\\register.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Home\\register.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Home\\register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:54:35.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Home\\login.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Home\\login.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Home\\login.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Home\\login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:53:57.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "explore_events.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\user\\explore_events.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\user\\explore_events.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\user\\explore_events.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\user\\explore_events.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:52:53.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Buy_tickets.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\user\\Buy_tickets.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\user\\Buy_tickets.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\user\\Buy_tickets.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\user\\Buy_tickets.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:52:00.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashBoard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\user\\DashBoard.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\user\\DashBoard.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\user\\DashBoard.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\user\\DashBoard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:51:21.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "masterpiece\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "masterpiece\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wCEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:50:35.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Admin\\profile.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Admin\\profile.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Admin\\profile.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Admin\\profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:50:31.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateTickets_event.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Admin\\CreateTickets_event.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Admin\\CreateTickets_event.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Admin\\CreateTickets_event.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Admin\\CreateTickets_event.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:49:34.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Manege_event.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Admin\\Manege_event.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Admin\\Manege_event.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Admin\\Manege_event.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Admin\\Manege_event.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:48:42.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create_event.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Admin\\Create_event.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Admin\\Create_event.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Admin\\Create_event.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Admin\\Create_event.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:47:15.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_userActions.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_userActions.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Shared\\_userActions.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_userActions.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Shared\\_userActions.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwBYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:46:13.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "masterpiece\\Views\\Shared\\_AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_AdminDashboard.cshtml",
+              "RelativeToolTip": "masterpiece\\Views\\Shared\\_AdminDashboard.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwCUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:45:50.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "userController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Controllers\\userController.cs",
+              "RelativeDocumentMoniker": "masterpiece\\Controllers\\userController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Controllers\\userController.cs",
+              "RelativeToolTip": "masterpiece\\Controllers\\userController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:44:34.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "masterpiece\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "masterpiece\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA7wB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:43:49.099Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

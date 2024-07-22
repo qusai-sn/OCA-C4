@@ -1,0 +1,209 @@
+Folder PATH listing
+Volume serial number is ACD3-5013
+C:.
+|   favicon.ico
+|   Global.asax
+|   Global.asax.cs
+|   masterpiece.csproj
+|   masterpiece.csproj.user
+|   packages.config
+|   test.txt
+|   Web.config
+|   Web.Debug.config
+|   Web.Release.config
+|   
++---App_Data
++---App_Start
+|       BundleConfig.cs
+|       FilterConfig.cs
+|       RouteConfig.cs
+|       
++---bin
+|   |   Antlr3.Runtime.dll
+|   |   Antlr3.Runtime.pdb
+|   |   masterpiece.dll
+|   |   masterpiece.dll.config
+|   |   masterpiece.pdb
+|   |   Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+|   |   Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+|   |   Microsoft.Web.Infrastructure.dll
+|   |   Newtonsoft.Json.dll
+|   |   Newtonsoft.Json.xml
+|   |   System.Web.Helpers.dll
+|   |   System.Web.Helpers.xml
+|   |   System.Web.Mvc.dll
+|   |   System.Web.Mvc.xml
+|   |   System.Web.Optimization.dll
+|   |   System.Web.Optimization.xml
+|   |   System.Web.Razor.dll
+|   |   System.Web.Razor.xml
+|   |   System.Web.WebPages.Deployment.dll
+|   |   System.Web.WebPages.Deployment.xml
+|   |   System.Web.WebPages.dll
+|   |   System.Web.WebPages.Razor.dll
+|   |   System.Web.WebPages.Razor.xml
+|   |   System.Web.WebPages.xml
+|   |   WebGrease.dll
+|   |   
+|   \---roslyn
+|           csc.exe
+|           csc.exe.config
+|           csc.rsp
+|           csi.exe
+|           csi.exe.config
+|           csi.rsp
+|           Microsoft.Build.Tasks.CodeAnalysis.dll
+|           Microsoft.CodeAnalysis.CSharp.dll
+|           Microsoft.CodeAnalysis.CSharp.Scripting.dll
+|           Microsoft.CodeAnalysis.dll
+|           Microsoft.CodeAnalysis.Scripting.dll
+|           Microsoft.CodeAnalysis.VisualBasic.dll
+|           Microsoft.CSharp.Core.targets
+|           Microsoft.DiaSymReader.Native.amd64.dll
+|           Microsoft.DiaSymReader.Native.x86.dll
+|           Microsoft.Managed.Core.targets
+|           Microsoft.VisualBasic.Core.targets
+|           Microsoft.Win32.Primitives.dll
+|           System.AppContext.dll
+|           System.Collections.Immutable.dll
+|           System.Console.dll
+|           System.Diagnostics.DiagnosticSource.dll
+|           System.Diagnostics.FileVersionInfo.dll
+|           System.Diagnostics.StackTrace.dll
+|           System.Globalization.Calendars.dll
+|           System.IO.Compression.dll
+|           System.IO.Compression.ZipFile.dll
+|           System.IO.FileSystem.dll
+|           System.IO.FileSystem.Primitives.dll
+|           System.Net.Http.dll
+|           System.Net.Sockets.dll
+|           System.Reflection.Metadata.dll
+|           System.Runtime.InteropServices.RuntimeInformation.dll
+|           System.Security.Cryptography.Algorithms.dll
+|           System.Security.Cryptography.Encoding.dll
+|           System.Security.Cryptography.Primitives.dll
+|           System.Security.Cryptography.X509Certificates.dll
+|           System.Text.Encoding.CodePages.dll
+|           System.Threading.Tasks.Extensions.dll
+|           System.ValueTuple.dll
+|           System.Xml.ReaderWriter.dll
+|           System.Xml.XmlDocument.dll
+|           System.Xml.XPath.dll
+|           System.Xml.XPath.XDocument.dll
+|           vbc.exe
+|           vbc.exe.config
+|           vbc.rsp
+|           VBCSCompiler.exe
+|           VBCSCompiler.exe.config
+|           
++---Content
+|       bootstrap-grid.css
+|       bootstrap-grid.css.map
+|       bootstrap-grid.min.css
+|       bootstrap-grid.min.css.map
+|       bootstrap-grid.rtl.css
+|       bootstrap-grid.rtl.css.map
+|       bootstrap-grid.rtl.min.css
+|       bootstrap-grid.rtl.min.css.map
+|       bootstrap-reboot.css
+|       bootstrap-reboot.css.map
+|       bootstrap-reboot.min.css
+|       bootstrap-reboot.min.css.map
+|       bootstrap-reboot.rtl.css
+|       bootstrap-reboot.rtl.css.map
+|       bootstrap-reboot.rtl.min.css
+|       bootstrap-reboot.rtl.min.css.map
+|       bootstrap-utilities.css
+|       bootstrap-utilities.css.map
+|       bootstrap-utilities.min.css
+|       bootstrap-utilities.min.css.map
+|       bootstrap-utilities.rtl.css
+|       bootstrap-utilities.rtl.css.map
+|       bootstrap-utilities.rtl.min.css
+|       bootstrap-utilities.rtl.min.css.map
+|       bootstrap.css
+|       bootstrap.css.map
+|       bootstrap.min.css
+|       bootstrap.min.css.map
+|       bootstrap.rtl.css
+|       bootstrap.rtl.css.map
+|       bootstrap.rtl.min.css
+|       bootstrap.rtl.min.css.map
+|       Site.css
+|       
++---Controllers
+|       AdminController.cs
+|       HomeController.cs
+|       userController.cs
+|       
++---Models
++---obj
+|   \---Debug
+|       |   .NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+|       |   DesignTimeResolveAssemblyReferencesInput.cache
+|       |   masterpi.32FB69E7.Up2Date
+|       |   masterpiece.csproj.AssemblyReference.cache
+|       |   masterpiece.csproj.CoreCompileInputs.cache
+|       |   masterpiece.csproj.FileListAbsolute.txt
+|       |   masterpiece.dll
+|       |   masterpiece.pdb
+|       |   
+|       \---TempPE
++---Properties
+|       AssemblyInfo.cs
+|       
++---Scripts
+|       bootstrap.bundle.js
+|       bootstrap.bundle.js.map
+|       bootstrap.bundle.min.js
+|       bootstrap.bundle.min.js.map
+|       bootstrap.esm.js
+|       bootstrap.esm.js.map
+|       bootstrap.esm.min.js
+|       bootstrap.esm.min.js.map
+|       bootstrap.js
+|       bootstrap.js.map
+|       bootstrap.min.js
+|       bootstrap.min.js.map
+|       jquery-3.7.0.intellisense.js
+|       jquery-3.7.0.js
+|       jquery-3.7.0.min.js
+|       jquery-3.7.0.min.map
+|       jquery-3.7.0.slim.js
+|       jquery-3.7.0.slim.min.js
+|       jquery-3.7.0.slim.min.map
+|       jquery.validate-vsdoc.js
+|       jquery.validate.js
+|       jquery.validate.min.js
+|       jquery.validate.unobtrusive.js
+|       jquery.validate.unobtrusive.min.js
+|       modernizr-2.8.3.js
+|       
+\---Views
+    |   Web.config
+    |   _ViewStart.cshtml
+    |   
+    +---Admin
+    |       CreateTickets_event.cshtml
+    |       Create_event.cshtml
+    |       Manege_event.cshtml
+    |       profile.cshtml
+    |       
+    +---Home
+    |       About.cshtml
+    |       Contact.cshtml
+    |       Index.cshtml
+    |       login.cshtml
+    |       register.cshtml
+    |       
+    +---Shared
+    |       Error.cshtml
+    |       _AdminDashboard.cshtml
+    |       _Layout.cshtml
+    |       _userActions.cshtml
+    |       
+    \---user
+            Buy_tickets.cshtml
+            DashBoard.cshtml
+            explore_events.cshtml
+            
