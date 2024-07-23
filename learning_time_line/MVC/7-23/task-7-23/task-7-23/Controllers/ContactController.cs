@@ -4,14 +4,12 @@ namespace task_7_23.Controllers
 {
     public class ContactController : Controller
     {
-        // GET: /Contact/Index
-        public ActionResult Index()
+         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: /Contact/Contact
-        public ActionResult Contact()
+         public ActionResult Contact()
         {
             return View();
         }
