@@ -9,36 +9,24 @@ namespace task_7_23.Controllers
             return View();
         }
 
-         public ActionResult Contact()
+     
+        public ActionResult Contact()
         {
+            
+
             return View();
         }
 
-         [HttpPost]
-        public ActionResult Contact(FormCollection form)
+        [HttpPost]
+        public ActionResult Display(FormCollection form)
         {
-             var name = form["Name"];
-            var phoneNumber = form["PhoneNumber"];
-            var gender = form["Gender"];
-            var degree = form["Degree"];
-            var interests = form.GetValues("Interests");
 
-             TempData["Name"] = name;
-            TempData["PhoneNumber"] = phoneNumber;
-            TempData["Gender"] = gender;
-            TempData["Degree"] = degree;
-            TempData["Interests"] = interests;
 
-            return RedirectToAction("Display");
-        }
-
-         public ActionResult Display()
-        {
-             ViewBag.Name = TempData["Name"];
-            ViewBag.PhoneNumber = TempData["PhoneNumber"];
-            ViewBag.Gender = TempData["Gender"];
-            ViewBag.Degree = TempData["Degree"];
-            ViewBag.Interests = TempData["Interests"];
+            ViewBag.Name = form["Name"];
+            ViewBag.PhoneNumber = form["PhoneNumber"];
+            ViewBag.Gender = form["Gender"];
+            ViewBag.Degree = form["Degree"];
+            ViewBag.Interests = form.GetValues("Interests");
 
             return View();
         }
