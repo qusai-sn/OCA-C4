@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "LoginPage";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+<h2>LoginPage</h2>
+
+
+@using (Html.BeginForm("LoginPage", "Login", FormMethod.Post))
+{
+
+
+
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+}

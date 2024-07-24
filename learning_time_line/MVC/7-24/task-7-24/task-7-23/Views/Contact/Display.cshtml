@@ -1,0 +1,16 @@
+﻿
+ 
+@{
+    ViewBag.Title = "Display Data";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Display Data</h2>
+
+<div>
+    <strong>Name:</strong> @ViewBag.Name <br />
+    <strong>Phone Number:</strong> @ViewBag.PhoneNumber <br />
+    <strong>Gender:</strong> @ViewBag.Gender <br />
+    <strong>Degree:</strong> @ViewBag.Degree <br />
+    <strong>Interests:</strong> @string.Join(", ", ViewBag.Interests)
+</div>
