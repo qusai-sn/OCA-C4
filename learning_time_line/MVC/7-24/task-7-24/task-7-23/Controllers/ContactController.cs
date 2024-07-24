@@ -15,7 +15,7 @@ namespace task_7_23.Controllers
         }
 
         [HttpPost]
-        public ActionResult Display(FormCollection form)
+        public ActionResult Contact(FormCollection form)
         {
             ViewBag.Name = form["Name"];
             ViewBag.PhoneNumber = form["PhoneNumber"];
@@ -23,7 +23,11 @@ namespace task_7_23.Controllers
             ViewBag.Degree = form["Degree"];
             ViewBag.Interests = form.GetValues("Interests");
 
-            return View("Contact"); 
+             
+            return View();
         }
+
+        
+        
     }
 }
