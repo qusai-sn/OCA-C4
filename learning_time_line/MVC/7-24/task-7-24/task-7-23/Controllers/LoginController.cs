@@ -25,8 +25,7 @@ namespace task_7_23.Controllers
 
             if (isValidUser)
             {
-                // Set session variable for logged-in user
-                Session["User"] = username;
+                 Session["User"] = username;
                 return RedirectToAction("Index", "Home");
             }
 
@@ -37,8 +36,7 @@ namespace task_7_23.Controllers
         // GET: Login/Logout
         public ActionResult Logout()
         {
-            // Clear the session variable
-            Session["User"] = null;
+             Session["User"] = null;
             return RedirectToAction("Index", "Home");
         }
     }

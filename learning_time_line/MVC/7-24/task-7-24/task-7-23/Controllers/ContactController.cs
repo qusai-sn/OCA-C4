@@ -23,7 +23,7 @@ namespace task_7_23.Controllers
             ViewBag.Degree = form["Degree"];
             ViewBag.Interests = form.GetValues("Interests");
 
-            return View("Contact"); // Return to the same view
+            return View("Contact"); 
         }
     }
 }

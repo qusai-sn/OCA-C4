@@ -61,7 +61,7 @@
                     <li class="nav-item">@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li class="nav-item">@Html.ActionLink("Contact", "contact", "Contact", new { area = "" }, new { @class = "nav-link" })</li>
 
-                    @if (Session["User"] != null) // Check if user is logged in
+                    @if (Session["User"] != null) 
                     {
                         <li class="nav-item">
                             <a class="btn btn-secondary" href="@Url.Action("Logout", "Login")">Logout</a>
