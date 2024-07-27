@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\mvc\\7-22\\masterpiece\\masterpiece\\views\\shared\\_useractions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\shared\\_useractions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|solutionrelative:masterpiece\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2356CE9-0373-40D8-9624-0ACAB5918FB7}|masterpiece\\masterpiece.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,11 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "masterpiece\\Views\\_ViewStart.cshtml",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "masterpiece\\Views\\Shared\\_Layout.cshtml",
@@ -142,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "explore_events.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\user\\explore_events.cshtml",
               "RelativeDocumentMoniker": "masterpiece\\Views\\user\\explore_events.cshtml",
@@ -154,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Buy_tickets.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\user\\Buy_tickets.cshtml",
               "RelativeDocumentMoniker": "masterpiece\\Views\\user\\Buy_tickets.cshtml",
@@ -166,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DashBoard.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\user\\DashBoard.cshtml",
               "RelativeDocumentMoniker": "masterpiece\\Views\\user\\DashBoard.cshtml",
@@ -238,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_userActions.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_userActions.cshtml",
               "RelativeDocumentMoniker": "masterpiece\\Views\\Shared\\_userActions.cshtml",
@@ -251,15 +251,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "_AdminDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_AdminDashboard.cshtml",
               "RelativeDocumentMoniker": "masterpiece\\Views\\Shared\\_AdminDashboard.cshtml",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-22\\masterpiece\\masterpiece\\Views\\Shared\\_AdminDashboard.cshtml",
               "RelativeToolTip": "masterpiece\\Views\\Shared\\_AdminDashboard.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwCUAAABQAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T13:45:50.545Z"
+              "WhenOpened": "2024-07-22T13:45:50.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
