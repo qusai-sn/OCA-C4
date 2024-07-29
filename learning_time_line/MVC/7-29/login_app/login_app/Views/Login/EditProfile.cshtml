@@ -1,0 +1,53 @@
+﻿@model login_app.Models.UserProfileViewModel
+
+@{
+    ViewBag.Title = "Edit Profile";
+}
+
+<h2>Edit Profile</h2>
+
+@using (Html.BeginForm("EditProfile", "Login", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email)
+        @Html.TextBoxFor(model => model.Email, new { @class = "form-control", @readonly = "readonly" })
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name)
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Name)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Password)
+        @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Password)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NewPassword)
+        @Html.PasswordFor(model => model.NewPassword, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.NewPassword)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ConfirmNewPassword)
+        @Html.PasswordFor(model => model.ConfirmNewPassword, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.ConfirmNewPassword)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ProfileImage)
+        @Html.TextBoxFor(model => model.ProfileImage, new { type = "file", @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.ProfileImage)
+    </div>
+
+    <div class="form-actions">
+        <input type="submit" value="Save Changes" class="btn btn-primary" />
+        @Html.ActionLink("Back to Profile", "Profile", "Login", new { area = "" }, new { @class = "btn btn-default" })
+    </div>
+}

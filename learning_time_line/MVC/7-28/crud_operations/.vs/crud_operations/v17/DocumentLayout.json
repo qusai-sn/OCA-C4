@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|c:\\users\\orange academy\\source\\repos\\crud_operations\\crud_operations\\views\\login\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|solutionrelative:crud_operations\\views\\login\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|c:\\users\\orange academy\\source\\repos\\crud_operations\\crud_operations\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|solutionrelative:crud_operations\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|c:\\users\\orange academy\\source\\repos\\crud_operations\\crud_operations\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\mvc\\7-28\\crud_operations\\crud_operations\\views\\login\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|solutionrelative:crud_operations\\views\\login\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|solutionrelative:crud_operations\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|c:\\users\\orange academy\\source\\repos\\crud_operations\\crud_operations\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|solutionrelative:crud_operations\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|solutionrelative:crud_operations\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|solutionrelative:crud_operations\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C6D0ACC-7F63-480A-BDE5-45AF03F846EE}|crud_operations\\crud_operations.csproj|solutionrelative:crud_operations\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -38,30 +38,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Views\\Login\\LoginPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Views\\Login\\LoginPage.cshtml",
               "RelativeDocumentMoniker": "crud_operations\\Views\\Login\\LoginPage.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Views\\Login\\LoginPage.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Views\\Login\\LoginPage.cshtml",
               "RelativeToolTip": "crud_operations\\Views\\Login\\LoginPage.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-28T14:22:26.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "crud_operations\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Controllers\\LoginController.cs",
               "RelativeToolTip": "crud_operations\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T14:21:01.299Z",
               "EditorCaption": ""
@@ -70,66 +70,61 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Views\\Users\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "crud_operations\\Views\\Users\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Views\\Users\\Edit.cshtml",
               "RelativeToolTip": "crud_operations\\Views\\Users\\Edit.cshtml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T13:30:22.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T13:30:22.13Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Views\\Users\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "crud_operations\\Views\\Users\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Views\\Users\\Create.cshtml",
               "RelativeToolTip": "crud_operations\\Views\\Users\\Create.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAADYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T08:43:16.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T08:43:16.781Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Views\\Users\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "crud_operations\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Views\\Users\\Index.cshtml",
               "RelativeToolTip": "crud_operations\\Views\\Users\\Index.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T08:26:41.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T08:26:41.651Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "crud_operations\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Controllers\\UsersController.cs",
               "RelativeToolTip": "crud_operations\\Controllers\\UsersController.cs",
               "ViewState": "AQIAAHcAAAAAAAAAAAAAwJEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T08:20:54.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T08:20:54.019Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Models\\User.cs",
               "RelativeDocumentMoniker": "crud_operations\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\crud_operations\\crud_operations\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-28\\crud_operations\\crud_operations\\Models\\User.cs",
               "RelativeToolTip": "crud_operations\\Models\\User.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T08:19:30.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T08:19:30.402Z"
             }
           ]
         }

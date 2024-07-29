@@ -1,0 +1,27 @@
+﻿@model login_app.Models.user
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<h2>Profile</h2>
+
+<div>
+    <h3>Your Profile Details</h3>
+    <img src="@Model.img" alt="Alternate Text" />
+    <dl class="dl-horizontal">
+        <dt>Email</dt>
+        <dd>@Model.email</dd>
+
+        <dt>Name</dt>
+        <dd>@Model.name</dd>
+
+        <dt>Password</dt>
+        <dd>@Model.password</dd>
+    </dl>
+
+    <div class="form-actions no-color">
+        <a href="@Url.Action("EditProfile", "Login")" class="btn btn-default">Edit Profile</a>
+        <a href="@Url.Action("ResetPassword", "Login")" class="btn btn-warning">Reset Password</a>
+    </div>
+</div>
