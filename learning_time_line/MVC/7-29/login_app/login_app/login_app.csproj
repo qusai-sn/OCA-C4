@@ -229,6 +229,7 @@
     <Content Include="Views\Login\Profile.cshtml" />
     <Content Include="Views\Login\ResetPassword.cshtml" />
     <Content Include="Views\Login\EditProfile.cshtml" />
+    <Content Include="Views\Login\Login2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

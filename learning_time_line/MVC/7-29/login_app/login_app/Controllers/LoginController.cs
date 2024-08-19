@@ -25,22 +25,33 @@ namespace login_app.Controllers
         {
              using (Login_appEntities1 db = new Login_appEntities1())
             {
-                 var logged_user = db.users.FirstOrDefault(u => u.email == user.email);
+                var logged_user = db.users.FirstOrDefault(record => record.email == user.email);
 
-                 if (logged_user != null && user.password == logged_user.password)
+
+                //foreach (var item in db.users)
+                //{
+                //    if (item.email == user.email)
+                //    {
+                //        logged_user = item;
+                //    }
+                //}
+
+                if (logged_user != null && user.password == logged_user.password)
                 {
-                     HttpCookie auth = new HttpCookie("AuthCookie", user.email);
+                    HttpCookie auth = new HttpCookie("AuthCookie", user.email);
+
                     auth.Expires = DateTime.Now.AddHours(1);
 
-                     Response.Cookies.Add(auth);
+                    Response.Cookies.Add(auth);
 
                      return RedirectToAction("Index", "Home");
                 }
                 else
                 {
-                     ViewBag.ErrorMessage = "Invalid email or password";
+                    ViewBag.ErrorMessage = "Invalid email or password";
                     return View();
                 }
+
             }
         }
 
@@ -55,14 +66,16 @@ namespace login_app.Controllers
 
         // POST: Login/Create
         [HttpPost]
-        public ActionResult Register(user data)
+       public ActionResult Register(user user)
         {
-            Login_appEntities1 register = new Login_appEntities1();
-            var user_data = register.users.Add(data);
-            register.SaveChanges();
-            return RedirectToAction("Login", "Login");
-        }
+            Login_appEntities1 db = new Login_appEntities1();
 
+            db.users.Add(user);
+            db.SaveChanges();
+ 
+            return RedirectToAction("Login","Login");
+
+        }
 
       
 
@@ -104,6 +117,7 @@ namespace login_app.Controllers
                 return View(user);
             }
         }
+        
 
         // GET: Login/ResetPassword
         public ActionResult ResetPassword()

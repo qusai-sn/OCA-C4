@@ -1,50 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\mvc\\7-29\\login_app\\login_app\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\views\\login\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\login\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\views\\login\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\login\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\views\\login\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\login\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\mvc\\7-29\\login_app\\login_app\\views\\login\\login2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\login\\login2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\models\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\mvc\\7-29\\login_app\\login_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\models\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\models\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\mvc\\7-29\\login_app\\login_app\\views\\login\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\login\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|c:\\users\\orange academy\\source\\repos\\login_app\\login_app\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{049B590A-48D1-46FB-BAF2-075EF60EF452}|login_app\\login_app.csproj|solutionrelative:login_app\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,146 +46,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\EditProfile.cshtml",
-              "RelativeDocumentMoniker": "login_app\\Views\\Login\\EditProfile.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\EditProfile.cshtml",
-              "RelativeToolTip": "login_app\\Views\\Login\\EditProfile.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAC4AAAAKAAAA",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "login_app\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "login_app\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-30T10:06:03.623Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login2.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Login\\Login2.cshtml",
+              "RelativeDocumentMoniker": "login_app\\Views\\Login\\Login2.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Login\\Login2.cshtml",
+              "RelativeToolTip": "login_app\\Views\\Login\\Login2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T12:29:13.742Z",
+              "WhenOpened": "2024-07-29T20:00:25.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Login\\Profile.cshtml",
+              "RelativeDocumentMoniker": "login_app\\Views\\Login\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Login\\Profile.cshtml",
+              "RelativeToolTip": "login_app\\Views\\Login\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T17:55:49.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Models\\user.cs",
+              "RelativeDocumentMoniker": "login_app\\Models\\user.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Models\\user.cs",
+              "RelativeToolTip": "login_app\\Models\\user.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:42:48.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Models\\UserProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Models\\UserProfileViewModel.cs",
               "RelativeDocumentMoniker": "login_app\\Models\\UserProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Models\\UserProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Models\\UserProfileViewModel.cs",
               "RelativeToolTip": "login_app\\Models\\UserProfileViewModel.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA9wB8AAAABAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T12:26:30.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ResetPasswordViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Models\\ResetPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "login_app\\Models\\ResetPasswordViewModel.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Models\\ResetPasswordViewModel.cs",
-              "RelativeToolTip": "login_app\\Models\\ResetPasswordViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T12:12:33.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "login_app\\Views\\Login\\ResetPassword.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\ResetPassword.cshtml",
-              "RelativeToolTip": "login_app\\Views\\Login\\ResetPassword.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T12:09:37.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\Profile.cshtml",
-              "RelativeDocumentMoniker": "login_app\\Views\\Login\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\Profile.cshtml",
-              "RelativeToolTip": "login_app\\Views\\Login\\Profile.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T12:05:03.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "login_app\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "login_app\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA5wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:36:29.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "login_app\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "login_app\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAUwB4AAAAZAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-29T10:36:04.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Login\\Register.cshtml",
               "RelativeDocumentMoniker": "login_app\\Views\\Login\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Login\\Register.cshtml",
               "RelativeToolTip": "login_app\\Views\\Login\\Register.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACMAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-29T10:31:58.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "login_app\\Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Views\\Login\\Login.cshtml",
               "RelativeToolTip": "login_app\\Views\\Login\\Login.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACYAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-29T10:08:39.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Models\\Model1.edmx",
-              "RelativeDocumentMoniker": "login_app\\Models\\Model1.edmx",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Models\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "login_app\\Models\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-07-29T10:05:16.355Z",
-              "EditorCaption": " [Diagram1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "login_app\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\login_app\\login_app\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\MVC\\7-29\\login_app\\login_app\\Controllers\\LoginController.cs",
               "RelativeToolTip": "login_app\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAANUAAAAAAAAAAAAkwBMAAAAAAAAA",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAAwIQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T09:57:56.422Z",
               "EditorCaption": ""

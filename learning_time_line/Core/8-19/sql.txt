@@ -1,0 +1,28 @@
+CREATE TABLE Categories (
+    CategoryID INT PRIMARY KEY IDENTITY(1,1),
+    CategoryName NVARCHAR(100) NOT NULL,
+    CategoryImage NVARCHAR(255) NULL
+);
+
+
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY IDENTITY(1,1),
+    ProductName NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(500) NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    CategoryID INT FOREIGN KEY REFERENCES Categories(CategoryID),
+    ProductImage NVARCHAR(255) NULL
+);
+
+INSERT INTO Categories (CategoryName, CategoryImage)
+VALUES
+('Electronics', 'electronics.jpg'),
+('Books', 'books.jpg'),
+('Clothing', 'clothing.jpg');
+
+INSERT INTO Products (ProductName, Description, Price, CategoryID, ProductImage)
+VALUES
+('Smartphone', 'Latest model smartphone with advanced features.', 599.99, 1, 'smartphone.jpg'),
+('Laptop', 'High-performance laptop for gaming and work.', 999.99, 1, 'laptop.jpg'),
+('Novel', 'Bestselling fiction novel.', 14.99, 2, 'novel.jpg'),
+('T-shirt', '100% cotton t-shirt in various sizes.', 19.99, 3, 'tshirt.jpg');
