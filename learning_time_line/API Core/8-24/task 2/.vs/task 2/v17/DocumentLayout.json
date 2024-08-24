@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\qusai sn\\source\\repos\\task 2\\task 2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\qusai sn\\source\\repos\\task 2\\task 2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\qusai sn\\source\\repos\\task 2\\task 2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\qusai sn\\source\\repos\\task 2\\task 2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\qusai sn\\source\\repos\\task 2\\task 2\\models\\task_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\models\\task_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\qusai sn\\source\\repos\\task 2\\task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\qusai sn\\source\\repos\\task 2\\task 2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "task 2\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "task 2\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T19:40:44.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "task 2\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "task 2\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwDIAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T19:27:59.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "task 2\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "task 2\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:58:04.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "task 2\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "task 2\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:24:52.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Program.cs",
+              "RelativeDocumentMoniker": "task 2\\Program.cs",
+              "ToolTip": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Program.cs",
+              "RelativeToolTip": "task 2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:20:50.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\appsettings.json",
+              "RelativeDocumentMoniker": "task 2\\appsettings.json",
+              "ToolTip": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\appsettings.json",
+              "RelativeToolTip": "task 2\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-24T18:13:36.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "task_2.cs",
+              "DocumentMoniker": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Models\\task_2.cs",
+              "RelativeDocumentMoniker": "task 2\\Models\\task_2.cs",
+              "ToolTip": "C:\\Users\\Qusai sn\\source\\repos\\task 2\\task 2\\Models\\task_2.cs",
+              "RelativeToolTip": "task 2\\Models\\task_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:19:39.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
