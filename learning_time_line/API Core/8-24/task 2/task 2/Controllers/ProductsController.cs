@@ -15,16 +15,12 @@ namespace task_2.Controllers
             _context = context;
         }
 
-
-
         [HttpGet]
         public ActionResult GetAllProducts()
         {
             var result = _context.Products.ToList();
             return Ok(result);
         }
-
-
 
         [HttpGet("{id:int}")]
         public ActionResult GetProductById(int id)
@@ -38,8 +34,6 @@ namespace task_2.Controllers
 
             return Ok(result);
         }
-        
-
 
         [HttpGet("byname")]
         public ActionResult GetProductByName(string name)
@@ -54,7 +48,38 @@ namespace task_2.Controllers
             return Ok(result);
         }
 
+        [HttpGet("ProductbyCategory")]
+        public ActionResult GetProductByCategory(string name)
+        {
+            var category = _context.Categories.FirstOrDefault(record => record.CategoryName == name);
 
+            if (category == null)
+            {
+                return NotFound("Category not found with the specified name");
+            }
+
+            var result = _context.Products.Where(product => product.CategoryId == category.CategoryId).ToList();
+
+            if (!result.Any())
+            {
+                return NotFound("No products found for the specified category");
+            }
+
+            return Ok(result);
+        }
+
+        [HttpGet("category/{categoryId:int}")]
+        public ActionResult GetProductsByCategoryId(int categoryId)
+        {
+            var result = _context.Products.Where(p => p.CategoryId == categoryId).ToList();
+
+            if (!result.Any())
+            {
+                return NotFound("No products found for the specified category");
+            }
+
+            return Ok(result);
+        }
 
         [HttpDelete("{id:int}")]
         public ActionResult DeleteProduct(int id)
@@ -71,6 +96,5 @@ namespace task_2.Controllers
 
             return NoContent();
         }
-
     }
 }

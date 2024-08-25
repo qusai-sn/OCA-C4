@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange Academy\\source\\repos\\task1\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\source\\repos\\task1\\task1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\core\\8-19\\task1\\task1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|solutionrelative:task1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\source\\repos\\task1\\task1\\models\\task1corecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|solutionrelative:task1\\models\\task1corecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\source\\repos\\task1\\task1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\core\\8-19\\task1\\task1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|solutionrelative:task1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\source\\repos\\task1\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\core\\8-19\\task1\\task1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|solutionrelative:task1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\core\\8-19\\task1\\task1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|solutionrelative:task1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\core\\8-19\\task1\\task1\\models\\task1corecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|solutionrelative:task1\\models\\task1corecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\core\\8-19\\task1\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|solutionrelative:task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\source\\repos\\task1\\task1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\core\\8-19\\task1\\task1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3393DA5E-787A-4578-B5C4-028083C7FF80}|task1\\task1.csproj|solutionrelative:task1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -30,30 +38,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\Program.cs",
-              "RelativeDocumentMoniker": "task1\\Program.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\Program.cs*",
-              "RelativeToolTip": "task1\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "task1\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Models\\Category.cs",
+              "RelativeToolTip": "task1\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T13:29:52.972Z",
+              "WhenOpened": "2024-08-19T14:37:06.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "task1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Models\\Product.cs",
+              "RelativeToolTip": "task1\\Models\\Product.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:35:09.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Program.cs",
+              "RelativeDocumentMoniker": "task1\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Program.cs",
+              "RelativeToolTip": "task1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:29:52.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "task1\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\Controllers\\ProductsController.cs*",
-              "RelativeToolTip": "task1\\Controllers\\ProductsController.cs*",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAoAAAABAAAA",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "task1\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T13:29:28.085Z",
               "EditorCaption": ""
@@ -62,40 +95,38 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "task1\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\Controllers\\CategoriesController.cs*",
-              "RelativeToolTip": "task1\\Controllers\\CategoriesController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "task1\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T13:29:02.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Task1CoreContext.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\Models\\Task1CoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Models\\Task1CoreContext.cs",
               "RelativeDocumentMoniker": "task1\\Models\\Task1CoreContext.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\Models\\Task1CoreContext.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\Models\\Task1CoreContext.cs",
               "RelativeToolTip": "task1\\Models\\Task1CoreContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T13:27:57.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T13:27:57.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\appsettings.json",
               "RelativeDocumentMoniker": "task1\\appsettings.json",
-              "ToolTip": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\appsettings.json",
               "RelativeToolTip": "task1\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-19T13:22:31.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T13:22:31.994Z"
             }
           ]
         }

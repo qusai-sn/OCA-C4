@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F2nbAaeggiA=",
+  "dgSpecHash": "cZdU/jZuqh8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Orange Academy\\source\\repos\\task1\\task1\\task1.csproj",
+  "projectFilePath": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\Core\\8-19\\task1\\task1\\task1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Orange Academy\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Orange Academy\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
