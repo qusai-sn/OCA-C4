@@ -155,6 +155,61 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .form-container label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-container input, .form-container textarea, .form-container select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .form-container textarea {
+            resize: vertical;
+            height: 120px;
+        }
+
+        .form-container button {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .form-container button:hover {
+            background-color: #575757;
+        }
     </style>
 </head>
 <body>
@@ -174,17 +229,68 @@
 
     <!-- Grid Container -->
     <div class="grid-container" id="productGrid">
-     </div>
+    </div>
 
-     <div id="product-details-container"></div>
+    <!-- Form for adding a new product using [FromBody] -->
+    <div class="form-container">
+        <h2>Add New Product [FromBody]</h2>
+        <form id="FromBody" enctype="multipart/form-data">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required><br>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea><br>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required><br>
+
+            <label for="ddl-categories">Categories:</label>
+            <select id="ddl-categories" name="categoryId" required>
+                <!-- Categories will be populated here -->
+            </select>
+
+            <label for="productImage">Product Image:</label>
+            <input type="file" id="productImage" name="productImage" required><br>
+
+            <button type="button" onclick="addProductFromJson()">Add Product</button>
+        </form>
+    </div>
+
+    <!-- Form for adding a new product using [FromForm] -->
+    <div class="form-container">
+        <h2>Add New Product [FromForm]</h2>
+        <form id="productForm" enctype="multipart/form-data">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required><br>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea><br>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required><br>
+
+            <label for="ddl-categories">Categories:</label>
+            <select id="ddl-categories" name="categoryId" required>
+                <!-- Categories will be populated here -->
+            </select>
+
+            <label for="productImage">Product Image:</label>
+            <input type="file" id="productImage" name="productImage" required><br>
+
+            <button type="button" onclick="addProductFromForm()">Add Product</button>
+        </form>
+    </div>
+
+    <div id="product-details-container"></div>
 
     <script>
-         async function fetchCategories() {
+        async function fetchCategories() {
             try {
                 const response = await fetch('https://localhost:7011/api/Categories');
                 const categories = await response.json();
-                const dropdown = document.getElementById('categoryDropdown');
 
+                // Populate dropdown menu in Navbar
+                const dropdown = document.getElementById('categoryDropdown');
                 categories.forEach(category => {
                     const a = document.createElement('a');
                     a.href = '#';
@@ -193,12 +299,23 @@
                     dropdown.appendChild(a);
                 });
 
+                // Populate category select dropdown in both forms
+                const input_ddl = document.querySelectorAll('#ddl-categories');
+                input_ddl.forEach(selectElement => {
+                    categories.forEach(category => {
+                        const option = document.createElement('option');
+                        option.value = category.categoryId;
+                        option.textContent = category.categoryName;
+                        selectElement.appendChild(option);
+                    });
+                });
+
             } catch (error) {
                 console.error('Error fetching categories:', error);
             }
         }
 
-         async function fetchProductsByCategory(categoryId) {
+        async function fetchProductsByCategory(categoryId) {
             try {
                 const response = await fetch(`https://localhost:7011/api/Products/category/${categoryId}`);
                 const products = await response.json();
@@ -210,10 +327,7 @@
                     div.className = 'card';
                     div.onclick = () => viewProductDetails(product.productId);
                     div.innerHTML = `
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                         <img src="./images/${product.productImage}" alt="${product.productName}" style="width:300px;height:auto;">
-
-                            </svg>
+                        <img src="./images/${product.productImage}" alt="${product.productName}" style="width:300px;height:auto;">
                         <div class="card__content">
                             <p class="card__title">${product.productName}</p>
                             <p class="card__description">${product.description}</p>
@@ -227,7 +341,6 @@
             }
         }
 
-        // View product details
         async function viewProductDetails(productId) {
             try {
                 const response = await fetch(`https://localhost:7011/api/Products/${productId}`);
@@ -244,6 +357,44 @@
                 `;
             } catch (error) {
                 console.error('Error fetching product details:', error);
+            }
+        }
+
+        async function addProductFromJson() {
+            const formData = new FormData(document.getElementById('FromBody'));
+
+            try {
+                const response = await fetch('https://localhost:7011/api/Products/addProductWithDTO', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    alert('Product added successfully via JSON!');
+                } else {
+                    alert('Failed to add product via JSON');
+                }
+            } catch (error) {
+                console.error('Error adding product via JSON:', error);
+            }
+        }
+
+        async function addProductFromForm() {
+            const formData = new FormData(document.getElementById('productForm'));
+
+            try {
+                const response = await fetch('https://localhost:7011/api/Products/addProductWithDTO', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    alert('Product added successfully via form!');
+                } else {
+                    alert('Failed to add product via form');
+                }
+            } catch (error) {
+                console.error('Error adding product via form:', error);
             }
         }
 
