@@ -70,5 +70,46 @@ namespace task_2.Controllers
 
             return NoContent();
         }
+
+        [HttpPost]
+        public IActionResult AddCategory([FromBody] CategoryDTO category)
+        {
+            if (category == null)
+            {
+                return BadRequest();
+            }
+
+            Category ct = new Category {
+
+                CategoryImage = category.CategoryImage,
+                CategoryName = category.CategoryName,
+
+            };
+
+            _context.Categories.Add(ct);
+            _context.SaveChanges();
+
+
+            return Ok(ct);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateCategory([FromBody] CategoryDTO category, int id)
+        {
+            var record = _context.Categories.Find(id);
+            if (record == null)
+            {
+                return BadRequest();
+            }
+
+            record.CategoryImage = category.CategoryImage;
+            record.CategoryName = category.CategoryName;
+
+            _context.SaveChanges();
+
+            return Ok(record);
+
+        } 
     }
-}
+
+    }

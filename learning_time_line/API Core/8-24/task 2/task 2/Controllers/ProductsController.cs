@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using task_2.Models;
 using System.Linq;
+using System.IO;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace task_2.Controllers
 {
@@ -15,230 +18,195 @@ namespace task_2.Controllers
             _context = context;
         }
 
-
-
-        [HttpGet]
-        public ActionResult GetAllProducts()
+        // Helper method to upload images
+        private async Task<string> UploadImageAsync(ProductDTO2 dto)
         {
-            var result = _context.Products.OrderByDescending(x => x.Price).ToList();
+            var uploadFolder = Path.Combine(Directory.GetCurrentDirectory(), "Images");
 
+            if (!Directory.Exists(uploadFolder))
+            {
+                Directory.CreateDirectory(uploadFolder);
+            }
 
-            return Ok(result);
+            var imageFile = Path.Combine(uploadFolder, dto.ProductImage.FileName);
+
+            using (var stream = new FileStream(imageFile, FileMode.Create))
+            {
+                await dto.ProductImage.CopyToAsync(stream);
+            }
+
+            return dto.ProductImage.FileName;
         }
 
-
-
-
-
-
-        [HttpGet("{id:int}")]
-        public ActionResult GetProductById(int id)
+        // GET: api/Products
+        [HttpGet]
+        public async Task<ActionResult> GetAllProducts()
         {
-            var result = _context.Products.Find(id);
+            var products = await _context.Products.OrderByDescending(x => x.Price).ToListAsync();
+            return Ok(products);
+        }
 
-            if (result == null)
+        // GET: api/Products/5
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult> GetProductById(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
+
+            if (product == null)
             {
                 return NotFound("Product not found");
             }
 
-            return Ok(result);
+            return Ok(product);
         }
 
-
-
-
+        // GET: api/Products/byname?name=ProductName
         [HttpGet("byname")]
-        public ActionResult GetProductByName(string name)
+        public async Task<ActionResult> GetProductByName(string name)
         {
-            var result = _context.Products.FirstOrDefault(n => n.ProductName == name);
+            var product = await _context.Products.FirstOrDefaultAsync(n => n.ProductName == name);
 
-            if (result == null)
+            if (product == null)
             {
                 return NotFound("Product not found with the specified name");
             }
 
-            return Ok(result);
+            return Ok(product);
         }
 
-
-
-
+        // GET: api/Products/ProductbyCategory?name=CategoryName
         [HttpGet("ProductbyCategory")]
-        public ActionResult GetProductByCategory(string name)
+        public async Task<ActionResult> GetProductByCategory(string name)
         {
-            var category = _context.Categories.FirstOrDefault(record => record.CategoryName == name);
+            var category = await _context.Categories.FirstOrDefaultAsync(c => c.CategoryName == name);
 
             if (category == null)
             {
                 return NotFound("Category not found with the specified name");
             }
 
-            var result = _context.Products.Where(product => product.CategoryId == category.CategoryId).ToList();
+            var products = await _context.Products.Where(p => p.CategoryId == category.CategoryId).ToListAsync();
 
-            if (!result.Any())
+            if (!products.Any())
             {
                 return NotFound("No products found for the specified category");
             }
 
-            return Ok(result);
+            return Ok(products);
         }
 
-
-
-
-
+        // GET: api/Products/category/5
         [HttpGet("category/{categoryId:int}")]
-        public ActionResult GetProductsByCategoryId(int categoryId)
+        public async Task<ActionResult> GetProductsByCategoryId(int categoryId)
         {
-            var result = _context.Products.Where(p => p.CategoryId == categoryId).ToList();
+            var products = await _context.Products.Where(p => p.CategoryId == categoryId).ToListAsync();
 
-            if (!result.Any())
+            if (!products.Any())
             {
                 return NotFound("No products found for the specified category");
             }
 
-            return Ok(result);
+            return Ok(products);
         }
 
-
-
-
-
+        // DELETE: api/Products/5
         [HttpDelete("{id:int}")]
-        public ActionResult DeleteProduct(int id)
+        public async Task<ActionResult> DeleteProduct(int id)
         {
-            var result = _context.Products.Find(id);
+            var product = await _context.Products.FindAsync(id);
 
-            if (result == null)
+            if (product == null)
             {
                 return NotFound("Product not found");
             }
 
-            _context.Products.Remove(result);
-            _context.SaveChanges();
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-
-
-
-
+        // POST: api/Products
         [HttpPost]
-        public ActionResult AddProduct([FromForm] Product product)
+        public async Task<ActionResult> AddProduct([FromForm] ProductDTO2 productDto)
         {
-            if (product == null)
+            if (productDto == null)
             {
-                return BadRequest("Product is null");
+                return BadRequest("Product data is null");
             }
 
-            _context.Products.Add(product);
-            _context.SaveChanges();
+            var imageName = await UploadImageAsync(productDto);
 
-            return CreatedAtAction(nameof(GetProductById), new { id = product.ProductId }, product);
-        }
-
-
-
-
-        [HttpPost("add Product 2")]
-        public ActionResult AddProduct2([FromBody] Product product)
-        {
-            if (product == null)
+            var product = new Product
             {
-                return BadRequest("Product is null");
-            }
-
-            _context.Products.Add(product);
-            _context.SaveChanges();
-
-            return CreatedAtAction(nameof(GetProductById), new { id = product.ProductId }, product);
-        }
-
-
-
-
-
-        [HttpPost("addProductWithDTO")]
-        public ActionResult AddProduct_DTO([FromForm] ProductDTO2 product)
-        {
-            if (product == null)
-            {
-                return BadRequest("Product is null");
-            }
-
-            var uploadfolder = Path.Combine(Directory.GetCurrentDirectory(), "Images");
-
-            if (!Directory.Exists(uploadfolder))
-            {
-                Directory.CreateDirectory(uploadfolder);
-            }
-
-            var imageFile = Path.Combine(uploadfolder, product.ProductImage.FileName);
-
-            using( var stream = new FileStream(imageFile, FileMode.Create))
-            {
-                product.ProductImage.CopyToAsync(stream);
-            }
-
-            Product new_product = new Product
-            {
-                ProductName = product.ProductName,
-                Price = product.Price,
-                Description = product.Description,
-                ProductImage = product.ProductImage.FileName,
+                ProductName = productDto.ProductName,
+                Description = productDto.Description,
+                Price = productDto.Price,
+                ProductImage = imageName,
             };
 
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
 
-            _context.Products.Add(new_product);
-            _context.SaveChanges();
-
-            return Ok(new_product);
+            return CreatedAtAction(nameof(GetProductById), new { id = product.ProductId }, product);
         }
 
-
-
-
+        // PUT: api/Products/5
         [HttpPut("{id:int}")]
-        public ActionResult UpdateProduct(int id, [FromBody] ProductDTO updatedProduct)
+        public async Task<ActionResult> UpdateProduct(int id, [FromForm] ProductDTO2 productDto)
         {
-            var existingProduct = _context.Products.Find(id);
+            var product = await _context.Products.FindAsync(id);
 
-            if (existingProduct == null)
+            if (product == null)
             {
                 return NotFound("Product not found");
             }
 
-            existingProduct.ProductName = updatedProduct.ProductName;
-            existingProduct.Description = updatedProduct.Description;
-            existingProduct.Price = updatedProduct.Price;
-            existingProduct.ProductImage = updatedProduct.ProductImage;
+            if (productDto.ProductImage != null)
+            {
+                var imageName = await UploadImageAsync(productDto);
+                product.ProductImage = imageName;
+            }
 
-            _context.SaveChanges();
+            product.ProductName = productDto.ProductName;
+            product.Description = productDto.Description;
+            product.Price = productDto.Price;
+
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-
-
-
-        [HttpPut("Update/{id}")]
-        public ActionResult UpdateProduct_new(int id, [FromForm] ProductDTO product_dto)
+        // POST: api/Products/category/5
+        [HttpPost("category/{categoryId:int}")]
+        public async Task<ActionResult> AddProductToCategory(int categoryId, [FromForm] ProductDTO2 productDto)
         {
-            var record = _context.Products.Find(id);
-
-            if (record == null) {
-                return NotFound();
+            if (productDto == null)
+            {
+                return BadRequest("Product data is null");
             }
-            record.ProductName = product_dto.ProductName;
-            record.Description = product_dto.Description;
-            record.Price = product_dto.Price;
-            record.ProductImage = product_dto.ProductImage;
 
-            _context.SaveChanges();
+            var imageName = await UploadImageAsync(productDto);
 
-            return Ok(record);
+            var product = new Product
+            {
+                CategoryId = categoryId,
+                Description = productDto.Description,
+                Price = productDto.Price,
+                ProductName = productDto.ProductName,
+                ProductImage = imageName
+            };
+
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+
+            return Ok(product);
         }
+
+        
+
+
 
     }
 }
+

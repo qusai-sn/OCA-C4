@@ -13,3 +13,13 @@ public partial class Category
 
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 }
+
+
+public partial class CategoryDTO
+{
+ 
+    public string CategoryName { get; set; } = null!;
+
+    public string? CategoryImage { get; set; }
+
+ }

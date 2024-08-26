@@ -15,3 +15,15 @@ public partial class User
 
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }
+
+public partial class UserDTO
+{
+ 
+    public string Username { get; set; } = null!;
+
+    public string Password { get; set; } = null!;
+
+    public string Email { get; set; } = null!;
+
+ }
+

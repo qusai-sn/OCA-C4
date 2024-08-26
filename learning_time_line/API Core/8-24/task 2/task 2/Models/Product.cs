@@ -39,11 +39,11 @@ public partial class ProductDTO2
 
     public string ProductName { get; set; } = null!;
 
-    public string? Description { get; set; }
+    public string Description { get; set; }
 
     public decimal? Price { get; set; }
 
-
+    
     public IFormFile ProductImage { get; set; }
 
 }
