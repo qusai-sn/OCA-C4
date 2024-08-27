@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using task_2.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -36,6 +37,19 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+
+
+app.UseStaticFiles(); // Serves static files from the wwwroot folder by default
+
+// Serve files from the images folder
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(builder.Environment.ContentRootPath, "Images")),
+    RequestPath = "/Images"
+});
+
 
 app.UseRouting();  // This should come before UseCors
 

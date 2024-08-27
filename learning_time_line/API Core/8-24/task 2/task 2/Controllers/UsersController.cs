@@ -3,6 +3,8 @@ using task_2.Models;
 using System.Linq;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using System.Security.Cryptography;
+using Microsoft.AspNetCore.Http.HttpResults;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace task_2.Controllers
 {
@@ -138,8 +140,7 @@ namespace task_2.Controllers
 
             if (VerifyPassword(loginModel.Password, user.Password))
             {
-                // If you want to generate a token (e.g., JWT), this is where you would do it
-                return Ok(new { message = "Login successful", user = user });
+                 return Ok(new { message = "Login successful", user = user });
             }
             else
             {
@@ -147,8 +148,7 @@ namespace task_2.Controllers
             }
         }
 
-        // Utility method to hash passwords
-        private string HashPassword(string password)
+         private string HashPassword(string password)
         {
             byte[] salt = new byte[128 / 8];
             using (var rng = RandomNumberGenerator.Create())
@@ -166,8 +166,7 @@ namespace task_2.Controllers
             return $"{Convert.ToBase64String(salt)}.{hashed}";
         }
 
-        // Utility method to verify passwords
-        private bool VerifyPassword(string enteredPassword, string storedPassword)
+         private bool VerifyPassword(string enteredPassword, string storedPassword)
         {
             var parts = storedPassword.Split('.', 2);
             if (parts.Length != 2)
@@ -185,12 +184,78 @@ namespace task_2.Controllers
 
             return hashedEnteredPassword == parts[1];
         }
+
+        [HttpPost("/calculater")] 
+        public IActionResult calculater( [FromForm] string str ){
+
+            if (string.IsNullOrEmpty(str))
+            {
+                BadRequest();
+            }
+
+            var text = str.Split(); 
+            int num1 = int.Parse(text[0]);
+            string opr = text[1];
+            int num2 = int.Parse(text[2]);
+
+            int result = 0;
+
+            if(opr[0] == '+')
+            {
+                result = num1+num2;
+            }else if (opr[0] == '-')
+            {
+                result = num1-num2;
+
+            }else if (opr[0] == '*')
+            {
+                result = num1 * num2;
+            }
+            else
+            {
+                result = num1 / num2;
+            }
+
+            return Ok(result);
+
+
+        }
+        public static int СenturyFromYear(int year)
+        {
+
+
+            string starting = year.ToString().Substring(0,2);// 1786 >> 17
+            string ending = year.ToString().Substring(2); // 1786 >> 86
+
+            if (ending == "00")
+            {
+                return int.Parse(starting);
+            }
+            else
+            {
+                return int.Parse(starting) + 1;
+            }
+            //1705-- > 18
+            //1900-- > 19
+            //1601-- > 17
+            //2000-- > 20
+            //2742-- > 28
+
+           
+
+        }
+
+
+
+
     }
 
-    // Login model to handle the login request
-    public class LoginModel
+     public class LoginModel
     {
         public string Username { get; set; }
         public string Password { get; set; }
     }
+
+
+    
 }

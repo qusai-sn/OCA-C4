@@ -20,6 +20,6 @@ public partial class CategoryDTO
  
     public string CategoryName { get; set; } = null!;
 
-    public string? CategoryImage { get; set; }
+ 
 
  }

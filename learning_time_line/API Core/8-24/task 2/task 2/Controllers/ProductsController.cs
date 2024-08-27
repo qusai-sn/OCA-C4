@@ -35,7 +35,9 @@ namespace task_2.Controllers
                 await dto.ProductImage.CopyToAsync(stream);
             }
 
-            return dto.ProductImage.FileName;
+            // Return the full URL to the image
+            var imageUrl = $"{Request.Scheme}://{Request.Host}/Images/{dto.ProductImage.FileName}";
+            return imageUrl;
         }
 
         // GET: api/Products
@@ -204,7 +206,6 @@ namespace task_2.Controllers
         }
 
         
-
 
 
     }

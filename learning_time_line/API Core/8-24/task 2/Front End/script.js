@@ -1,10 +1,11 @@
 
 async function fetchCategories() {
+
     try {
         const response = await fetch('https://localhost:7011/api/Categories');
         const categories = await response.json();
 
-         const dropdown = document.getElementById('categoryDropdown');
+        const dropdown = document.getElementById('categoryDropdown');
         categories.forEach(category => {
             const a = document.createElement('a');
             a.href = '#';
@@ -13,7 +14,7 @@ async function fetchCategories() {
             dropdown.appendChild(a);
         });
 
-         const input_ddl = document.querySelectorAll('#ddl-categories');
+        const input_ddl = document.querySelectorAll('#ddl-categories');
         input_ddl.forEach(selectElement => {
             categories.forEach(category => {
                 const option = document.createElement('option');
@@ -32,78 +33,99 @@ async function fetchProductsByCategory(categoryId) {
     try {
         const response = await fetch(`https://localhost:7011/api/Products/category/${categoryId}`);
         const products = await response.json();
-        const grid = document.getElementById('productGrid');
-        grid.innerHTML = ''; 
+        const tableBody = document.getElementById('productGrid');
+        tableBody.innerHTML = ''; 
 
         products.forEach(product => {
-            const div = document.createElement('div');
-            div.className = 'card';
-            div.onclick = () => viewProductDetails(product.productId);
-            div.innerHTML = `
-                <img src="./images/${product.productImage}" alt="${product.productName}" style="width:300px;height:auto;">
-                <div class="card__content">
-                    <p class="card__title">${product.productName}</p>
-                    <p class="card__description">${product.description}</p>
-                </div>
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <th scope="row">${product.productId}</th>
+                <td class="w-25">
+                    <img src="${product.productImage}" class="img-fluid img-thumbnail" alt="${product.productName}">
+                </td>
+                <td>${product.productName}</td>
+                <td>${product.description}</td>
+                <td>$${product.price}</td>
             `;
-            grid.appendChild(div);
+            row.onclick = () => viewProductDetails(product.productId);
+            tableBody.appendChild(row);
         });
-
     } catch (error) {
         console.error('Error fetching products:', error);
     }
 }
+ 
 
 async function viewProductDetails(productId) {
-try {
-const response = await fetch(`https://localhost:7011/api/Products/${productId}`);
-const product = await response.json();
-const detailsContainer = document.getElementById('product-details-container');
+    try {
+        const response = await fetch(`https://localhost:7011/api/Products/${productId}`);
+        const product = await response.json();
+        const detailsContainer = document.getElementById('product-details-container');
 
-detailsContainer.innerHTML = `
-    <div>
-        <h2>${product.productName}</h2>
-        <p><strong>Description:</strong> ${product.description}</p>
-        <p><strong>Price:</strong> $${product.price}</p>
-        <img src="./images/${product.productImage}" alt="${product.productName}" style="width:300px;height:auto;">
-        <button onClick="showUpdateForm(${product.productId}, '${product.productName}', '${product.description}', ${product.price}, ${product.categoryId})">Update Product Details</button>
-        <div id="updateForm"> </div>
-    </div>
-`;
-} catch (error) {
-console.error('Error fetching product details:', error);
+        detailsContainer.innerHTML = `
+            <div class="product-card">
+                <img src="${product.productImage}" alt="${product.productName}">
+                <div class="product-info">
+                    <h2>${product.productName}</h2>
+                    <p><strong>Description:</strong> ${product.description}</p>
+                    <p><strong>Price:</strong> $${product.price}</p>
+                    <div class="product-actions">
+                        <button class="btn-update" onclick="showUpdateForm(${product.productId}, '${product.productName}', '${product.description}', ${product.price}, ${product.categoryId})">Update</button>
+                        <button class="btn-delete" onclick="deleteProduct(${product.productId})">Delete</button>
+                    </div>
+                    <div id="updateForm"></div>
+                </div>
+            </div>
+        `;
+
+        // Scroll to the details section
+        detailsContainer.scrollIntoView({ behavior: 'smooth' });
+
+    } catch (error) {
+        console.error('Error fetching product details:', error);
+    }
 }
-}
+
+
+
 
 function showUpdateForm(productId, productName, description, price, categoryId) {
-const updateForm = document.getElementById('updateForm');
-updateForm.innerHTML = `
-<h3>Update Product</h3>
-<form id="updateProductForm" enctype="multipart/form-data">
-    <label for="updateProductName">Product Name:</label>
-    <input type="text" id="updateProductName" name="productName" value="${productName}" required><br>
+    const updateForm = document.getElementById('updateForm');
+    updateForm.innerHTML = `
+        <div class="update-form-container">
+            <h3>Update Product</h3>
+            <form id="updateProductForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="updateProductName">Product Name:</label>
+                    <input type="text" id="updateProductName" name="productName" value="${productName}" required>
+                </div>
+                <div class="form-group">
+                    <label for="updateDescription">Description:</label>
+                    <textarea id="updateDescription" name="description" required>${description}</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="updatePrice">Price:</label>
+                    <input type="number" id="updatePrice" name="price" value="${price}" required>
+                </div>
+                <div class="form-group">
+                    <label for="updateCategory">Category:</label>
+                    <select id="updateCategory" name="categoryId" required>
+                        <!-- Categories will be populated here by JavaScript -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="updateProductImage">Product Image:</label>
+                    <input type="file" id="updateProductImage" name="productImage">
+                </div>
+                <button type="button" class="btn-update" onclick="UpdateProduct(${productId})">Update Product</button>
+            </form>
+        </div>
+    `;
 
-    <label for="updateDescription">Description:</label>
-    <textarea id="updateDescription" name="description" required>${description}</textarea><br>
-
-    <label for="updatePrice">Price:</label>
-    <input type="number" id="updatePrice" name="price" value="${price}" required><br>
-
-    <label for="updateCategory">Category:</label>
-    <select id="updateCategory" name="categoryId" required>
-        <!-- Categories will be populated here by JavaScript -->
-    </select><br>
-
-    <label for="updateProductImage">Product Image:</label>
-    <input type="file" id="updateProductImage" name="productImage"><br>
-
-    <button type="button" onclick="UpdateProduct(${productId})">Update Product</button>
-</form>
-`;
-
-// Populate categories in the update form
-fetchCategoriesForUpdate(categoryId);
+    // Populate categories in the update form
+    fetchCategoriesForUpdate(categoryId);
 }
+
 
 async function fetchCategoriesForUpdate(selectedCategoryId) {
 try {
@@ -165,6 +187,7 @@ async function addProductFromForm() {
     try {
         const response = await fetch('https://localhost:7011/api/Products/category/' + categoryId, {
             method: 'POST',
+
             body: formData
         });
 
@@ -181,8 +204,65 @@ async function addProductFromForm() {
         alert('An error occurred while adding the product.');
     }
 }
+
+async function deleteProduct(productId) {
+    try {
+        const response = await fetch(`https://localhost:7011/api/Products/${productId}`, {
+            method: 'DELETE'
+        });
+
+        if (response.ok) {
+            alert('Product deleted successfully!');
+            // Optionally, remove the row from the table
+            const row = document.querySelector(`tr[onclick="viewProductDetails(${productId})"]`);
+            if (row) {
+                row.remove();
+            }
+            // Clear the details view
+            document.getElementById('product-details-container').innerHTML = '';
+        } else {
+            const errorMessage = await response.text();
+            alert('Failed to delete product: ' + errorMessage);
+        }
+    } catch (error) {
+        console.error('Error deleting product:', error);
+        alert('An error occurred while deleting the product.');
+    }
+}
+
+
+async function addCategory() {
+    const formData = new FormData();
+    const categoryName = document.getElementById('categoryName').value;
+
+    formData.append('CategoryName', categoryName);
+
+    try {
+        const response = await fetch('https://localhost:7011/api/Categories', {
+            method: 'POST',
+            body: formData
+        });
+
+        if (response.ok) {
+            const category = await response.json();
+            alert('Category added successfully! Category ID: ' + category.categoryId);
+            document.getElementById('addCategoryForm').reset(); // Clear the form
+            // Optionally, refresh the category list or perform other actions
+        } else {
+            const errorMessage = await response.text();
+            alert('Failed to add category: ' + errorMessage);
+        }
+    } catch (error) {
+        console.error('Error adding category:', error);
+        alert('An error occurred while adding the category.');
+    }
+}
+
+
+
 // Fetch categories on page load
 window.onload = function() {
     fetchCategories();
 };
+ 
  

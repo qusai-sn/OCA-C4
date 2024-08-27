@@ -72,7 +72,7 @@ namespace task_2.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddCategory([FromBody] CategoryDTO category)
+        public IActionResult AddCategory([FromForm] CategoryDTO category)
         {
             if (category == null)
             {
@@ -81,8 +81,7 @@ namespace task_2.Controllers
 
             Category ct = new Category {
 
-                CategoryImage = category.CategoryImage,
-                CategoryName = category.CategoryName,
+                 CategoryName = category.CategoryName,
 
             };
 
@@ -94,7 +93,7 @@ namespace task_2.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateCategory([FromBody] CategoryDTO category, int id)
+        public IActionResult UpdateCategory([FromForm] CategoryDTO category, int id)
         {
             var record = _context.Categories.Find(id);
             if (record == null)
@@ -102,8 +101,7 @@ namespace task_2.Controllers
                 return BadRequest();
             }
 
-            record.CategoryImage = category.CategoryImage;
-            record.CategoryName = category.CategoryName;
+             record.CategoryName = category.CategoryName;
 
             _context.SaveChanges();
 

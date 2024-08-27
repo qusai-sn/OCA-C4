@@ -3,280 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Grid</title>
+    <title>Product Table</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Navbar */
-        .navbar {
-            background-color: #333;
-            padding: 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .navbar a {
-            color: white;
-            text-align: center;
-            padding: 10px 20px;
-            text-decoration: none;
-            font-size: 17px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .navbar a:hover {
-            background-color: #575757;
-        }
-
-        .navbar .dropdown {
-            position: relative;
-        }
-
-        .navbar .dropbtn {
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
-            font-size: 17px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .navbar .dropdown-content {
-            display: none;
-            position: absolute;
-            top: 50px;
-            left: 0;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-            border-radius: 5px;
-            overflow: hidden;
-        }
-
-        .navbar .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-            transition: background-color 0.3s ease;
-        }
-
-        .navbar .dropdown-content a:hover {
-            background-color: #ddd;
-        }
-
-        .navbar .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        /* Grid layout */
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            padding: 2rem;
-            margin: 0 auto;
-            max-width: 1200px;
-        }
-
-        /* Card */
-        .card {
-            width: 300px;
-            position: relative;
-            background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-        }
-
-        .card__content {
-            padding: 15px;
-            text-align: center;
-        }
-
-        .card__title {
-            font-size: 20px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .card__description {
-            font-size: 14px;
-            color: #666;
-            line-height: 1.5;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Product Details */
-        #product-details-container {
-            margin-top: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            margin: 20px auto;
-        }
-
-        #product-details-container h2 {
-            font-size: 28px;
-            margin-bottom: 10px;
-            color: #333;
-        }
-
-        #product-details-container p {
-            font-size: 16px;
-            color: #555;
-            margin: 5px 0;
-        }
-
-        #product-details-container img {
-            width: 100%;
-            height: auto;
-            margin-top: 15px;
-            border-radius: 8px;
-        }
-
-        #product-details-container button {
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-        }
-
-        #product-details-container button:hover {
-            background-color: #575757;
-        }
-
-        .form-container {
-            background-color: white;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 600px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .form-container h2 {
-            margin-top: 0;
-            font-size: 24px;
-            color: #333;
-            text-align: center;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
-        }
-
-        .form-container label {
-            display: block;
-            margin: 10px 0 5px;
-            font-weight: bold;
-            color: #333;
-        }
-
-        .form-container input, .form-container textarea, .form-container select {
-            width: calc(100% - 20px);
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-
-        .form-container textarea {
-            resize: vertical;
-            height: 120px;
-        }
-
-        .form-container button {
-            width: 100%;
-            background-color: #333;
-            color: white;
-            padding: 15px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 18px;
-            margin-top: 10px;
-            transition: background-color 0.3s ease;
-        }
-
-        .form-container button:hover {
-            background-color: #575757;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="./login.html">Login</a>
-        <a href="./register.html">Register</a>
-        <div class="dropdown">
-            <button class="dropbtn">Categories 
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content" id="categoryDropdown">
-                <!-- Categories will be populated here by JavaScript -->
+<!-- Sidebar -->
+<div class="sidebar">
+    <a href="#home">Home</a>
+    <a href="./login.html">Login</a>
+    <a href="./register.html">Register</a>
+    <div class="dropdown">
+        <button class="dropbtn">Categories 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="categoryDropdown">
+            <!-- Categories will be populated here by JavaScript -->
+        </div>
+    </div> 
+</div>
+
+    <!-- Form for adding a new category -->
+    <div class="form-container">
+        <h2>Add New Category</h2>
+        <form id="addCategoryForm">
+            <div class="form-group">
+                <label for="categoryName">Category Name:</label>
+                <input type="text" id="categoryName" name="CategoryName" required>
             </div>
-        </div> 
-
+            <button type="button" class="btn-submit" onclick="addCategory()">Add Category</button>
+        </form>
     </div>
 
-    <!-- Grid Container -->
-    <div class="grid-container" id="productGrid">
+
+    <h1 style="text-align: center;"> Seven +2 / Eleven  </h1>
+
+    <!-- Product Table Container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-image">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Image</th>
+                            <th scope="col">Product Name</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productGrid">
+                        <!-- Products will be populated here by JavaScript -->
+                    </tbody>
+                </table>   
+            </div>
+        </div>
     </div>
+
 
 <!-- Form for adding a new product using [FromForm] -->
 <div class="form-container">
-    <h2>Add New Product [FromForm]</h2>
+    <h2>Add New Product</h2>
     <form id="productForm" enctype="multipart/form-data">
-        <label for="productName">Product Name:</label>
-        <input type="text" id="productName" name="productName" required><br>
+        <div class="form-group">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required>
+        </div>
 
-        <label for="description">Description:</label>
-        <textarea id="description" name="description" required></textarea><br>
+        <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+        </div>
 
-        <label for="price">Price:</label>
-        <input type="number" id="price" name="price" required><br>
+        <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+        </div>
 
-        <label for="ddl-categories">Categories:</label>
-        <select id="ddl-categories" name="categoryId" required>
-            <!-- Categories will be populated here -->
-        </select>
+        <div class="form-group">
+            <label for="ddl-categories">Categories:</label>
+            <select id="ddl-categories" name="categoryId" required>
+                <!-- Categories will be populated here -->
+            </select>
+        </div>
 
-        <label for="productImage">Product Image:</label>
-        <input type="file" id="productImage" name="productImage" required><br>
+        <div class="form-group">
+            <label for="productImage">Product Image:</label>
+            <input type="file" id="productImage" name="productImage" required>
+        </div>
 
         <button type="button" id="addProductButton" onclick="addProductFromForm()">Add Product</button>
     </form>
