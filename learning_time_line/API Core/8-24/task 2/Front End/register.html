@@ -93,7 +93,7 @@
             const formData = new FormData(document.getElementById('registerForm'));
 
             try {
-                const response = await fetch('https://localhost:7011/api/Users', {
+                const response = await fetch('https://localhost:7011/api/Users/register', {
                     method: 'POST',
                     body: formData
                 });

@@ -3,35 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\controllers\\getuserdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\getuserdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Orange Academy\\AppData\\Local\\SourceServer\\a8dac1208ef9e6e83e4ebad4467145108dcfe8d34ab83948bb2aa28c1bccdf44\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\dto\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\dto\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,12 +39,20 @@
       "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\task 2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\task 2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\models\\task_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\models\\task_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|c:\\users\\orange academy\\desktop\\oca-c4\\learning_time_line\\api core\\8-24\\task 2\\task 2\\task 2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A8D2564-C8EA-4A77-B7E3-3C737A151DDC}|task 2\\task 2.csproj|solutionrelative:task 2\\task 2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,50 +62,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "GetUserDataController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\GetUserDataController.cs",
+              "RelativeDocumentMoniker": "task 2\\Controllers\\GetUserDataController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\GetUserDataController.cs",
+              "RelativeToolTip": "task 2\\Controllers\\GetUserDataController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:03:06.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "task 2\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\UsersController.cs",
               "RelativeToolTip": "task 2\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAN4AAAAAAAAAAAAwwOoAAAANAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwEIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T19:27:59.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "task 2\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "task 2\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAALgAAAAAAAAAAAAQwMwAAAAfAAAA",
+              "DocumentIndex": 9,
+              "Title": "task_2.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\task_2.cs",
+              "RelativeDocumentMoniker": "task 2\\Models\\task_2.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\task_2.cs",
+              "RelativeToolTip": "task 2\\Models\\task_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:58:04.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T18:19:39.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Program.cs",
               "RelativeDocumentMoniker": "task 2\\Program.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Program.cs",
               "RelativeToolTip": "task 2\\Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:20:50.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T18:20:50.731Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "DTOs.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\DTO\\DTOs.cs",
+              "RelativeDocumentMoniker": "task 2\\DTO\\DTOs.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\DTO\\DTOs.cs",
+              "RelativeToolTip": "task 2\\DTO\\DTOs.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAhwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:41:03.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "task 2\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "task 2\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAYwHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:24:52.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\appsettings.json",
               "RelativeDocumentMoniker": "task 2\\appsettings.json",
@@ -108,90 +148,72 @@
               "RelativeToolTip": "task 2\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-24T18:13:36.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\User.cs",
-              "RelativeDocumentMoniker": "task 2\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\User.cs",
-              "RelativeToolTip": "task 2\\Models\\User.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA9wBsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T20:35:59.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "task 2\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "task 2\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEwAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:24:52.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T18:13:36.048Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "task 2\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\Category.cs",
-              "RelativeToolTip": "task 2\\Models\\Category.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA5wBYAAAABAAAA",
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "task 2\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\CartController.cs",
+              "RelativeToolTip": "task 2\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:24:58.928Z",
+              "WhenOpened": "2024-08-28T07:08:25.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "task 2\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "task 2\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "task 2\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "task 2\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAGsBAAAAAAAAAAAowG8BAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T19:40:44.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\AppData\\Local\\SourceServer\\a8dac1208ef9e6e83e4ebad4467145108dcfe8d34ab83948bb2aa28c1bccdf44\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\a8dac1208ef9e6e83e4ebad4467145108dcfe8d34ab83948bb2aa28c1bccdf44\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\AppData\\Local\\SourceServer\\a8dac1208ef9e6e83e4ebad4467145108dcfe8d34ab83948bb2aa28c1bccdf44\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\a8dac1208ef9e6e83e4ebad4467145108dcfe8d34ab83948bb2aa28c1bccdf44\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAtwKkAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:22:14.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T18:58:04.012Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "task 2\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\User.cs",
+              "RelativeToolTip": "task 2\\Models\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T20:35:59.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "task 2\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\Category.cs",
+              "RelativeToolTip": "task 2\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:24:58.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\Product.cs",
               "RelativeDocumentMoniker": "task 2\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\Product.cs",
               "RelativeToolTip": "task 2\\Models\\Product.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAmwCQAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:23:48.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:23:48.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "task 2.csproj",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\task 2.csproj",
               "RelativeDocumentMoniker": "task 2\\task 2.csproj",
@@ -199,21 +221,7 @@
               "RelativeToolTip": "task 2\\task 2.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T09:38:28.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "task_2.cs",
-              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\task_2.cs",
-              "RelativeDocumentMoniker": "task 2\\Models\\task_2.cs",
-              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\8-24\\task 2\\task 2\\Models\\task_2.cs",
-              "RelativeToolTip": "task 2\\Models\\task_2.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAwAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:19:39.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T09:38:28.041Z"
             }
           ]
         }

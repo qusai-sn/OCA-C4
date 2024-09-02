@@ -1,4 +1,4 @@
-
+fetchProductsByCategory(1);
 async function fetchCategories() {
 
     try {
@@ -46,14 +46,17 @@ async function fetchProductsByCategory(categoryId) {
                 <td>${product.productName}</td>
                 <td>${product.description}</td>
                 <td>$${product.price}</td>
+                <td>
+                    <button onclick="viewProductDetails(${product.productId})">View Details</button>
+                </td>
             `;
-            row.onclick = () => viewProductDetails(product.productId);
             tableBody.appendChild(row);
         });
     } catch (error) {
         console.error('Error fetching products:', error);
     }
 }
+
  
 
 async function viewProductDetails(productId) {
@@ -70,10 +73,10 @@ async function viewProductDetails(productId) {
                     <p><strong>Description:</strong> ${product.description}</p>
                     <p><strong>Price:</strong> $${product.price}</p>
                     <div class="product-actions">
-                        <button class="btn-update" onclick="showUpdateForm(${product.productId}, '${product.productName}', '${product.description}', ${product.price}, ${product.categoryId})">Update</button>
-                        <button class="btn-delete" onclick="deleteProduct(${product.productId})">Delete</button>
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1">
+                        <button onclick="addToCart(${product.productId})">Add to Cart</button>
                     </div>
-                    <div id="updateForm"></div>
                 </div>
             </div>
         `;
@@ -83,6 +86,48 @@ async function viewProductDetails(productId) {
 
     } catch (error) {
         console.error('Error fetching product details:', error);
+    }
+}
+
+
+
+async function addToCart(productId) {
+    const quantity = document.getElementById('quantity').value;
+
+    try {
+        const addToCartResponse = await fetch('https://localhost:7011/api/Products/AddToCart', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                productId: productId,
+                quantity: parseInt(quantity),
+                userId: sessionStorage.id
+            })
+        });
+
+        if (addToCartResponse.ok) {
+            alert('Product added to cart successfully!');
+            await getCartDetails(); // Optionally refresh the cart details
+        } else {
+            const errorMessage = await addToCartResponse.text();
+            console.error('Failed to add product to cart:', errorMessage);
+            alert('Failed to add product to cart: ' + errorMessage);
+        }
+    } catch (error) {
+        console.error('Error adding product to cart:', error);
+        alert('An error occurred while adding the product to the cart.');
+    }
+}
+
+async function getCartDetails() {
+    try {
+        const response = await fetch('https://localhost:7011/getCartDetails');
+        const cart = await response.json();
+        console.log('User Cart:', cart);
+    } catch (error) {
+        console.error('Error fetching cart details:', error);
     }
 }
 
@@ -257,6 +302,32 @@ async function addCategory() {
         alert('An error occurred while adding the category.');
     }
 }
+
+
+async function navigateToProductDetails(productId) {
+    window.location.href = `./product-details.html?productId=${productId}`;
+}
+
+async function loadProductDetails() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('productId');
+
+    if (productId) {
+        await viewProductDetails(productId);
+    } else {
+        console.error('No product ID found in URL.');
+    }
+}
+
+window.onload = function() {
+    const pageName = window.location.pathname.split('/').pop();
+    
+    if (pageName === 'product-listing.html') {
+        fetchCategories();
+    } else if (pageName === 'product-details.html') {
+        loadProductDetails();
+    }
+};
 
 
 

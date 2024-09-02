@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using task_2.Models;  // Ensure your models are correctly referenced
+using task_2.DTO;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 

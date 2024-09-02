@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            padding-left: 350px; /* Adjust to account for the sidebar */
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            padding: 15px 8px 15px 16px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            padding: 2rem 0rem;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .table-image {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-image th,
+        .table-image td {
+            padding: 15px;
+            text-align: center;
+            vertical-align: middle;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table-image th {
+            background-color: #333;
+            color: white;
+        }
+
+        .table-image img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .table-image tr:hover {
+            background-color: #f0f0f0;
+        }
+
+        .table-image td button {
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .table-image td button:hover {
+            background-color: #c2361b;
+        }
+
+        .quantity-input {
+            width: 50px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .update-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        .update-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Sidebar for navigation -->
+<div class="sidebar">
+    <a href="./index.html">Home</a>
+    <a href="./login.html">Login</a>
+    <a href="./register.html">Register</a>
+</div>
+
+<!-- Cart Container -->
+<div class="container">
+    <h1>Your Cart</h1>
+    <table class="table table-image">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Image</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody id="cartGrid">
+            <!-- Cart items will be dynamically added here -->
+        </tbody>
+    </table>   
+</div>
+
+<script>
+async function getCartDetails() {
+    try {
+        let id = sessionStorage.id ;
+        const response = await fetch(`https://localhost:7011/getCartDetails/${id}`);
+        const cart = await response.json();
+
+        // Clear any existing content
+        const cartGrid = document.getElementById('cartGrid');
+        cartGrid.innerHTML = '';
+        console.log(cart);
+
+        // Populate the cart with items
+        cart.items.forEach(item => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${item.productId}</td>
+                <td><img src="${item.productImage}" alt="${item.productName}"></td>
+                <td>${item.productName}</td>
+                <td>$${item.price.toFixed(2)}</td>
+                <td>
+                    <input type="number" class="quantity-input" id="quantity-${item.productId}" value="${item.quantity}" min="1">
+                </td>
+                <td>$${item.totalPrice.toFixed(2)}</td>
+                <td>
+                    <button class="update-button" onclick="updateQuantity(${item.productId})">Update</button>
+                    <button onclick="removeFromCart(${item.productId})">Remove</button>
+                </td>
+            `;
+            cartGrid.appendChild(row);
+        });
+    } catch (error) {
+        console.error('Error fetching cart details:', error);
+    }
+}
+
+ 
+
+async function updateQuantity(productId) {
+    const newQuantity = document.getElementById(`quantity-${productId}`).value;
+
+    try {
+        const formData = new FormData();
+        formData.append('newQuantity', newQuantity);
+
+        const response = await fetch(`https://localhost:7011/api/Products/EditCartItemQuantity/${productId}/${sessionStorage.id}`, {
+            method: 'PUT',
+            headers: {
+                'Accept': '*/*'
+            },
+            body: formData
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            console.log('Quantity updated:', data);
+            // Refresh the cart details to update the UI
+            getCartDetails();
+        } else {
+            const errorText = await response.text();
+            console.error('Failed to update the quantity:', errorText);
+            alert('Failed to update the quantity.');
+        }
+    } catch (error) {
+        console.error('Error:', error.message);
+        alert('An error occurred while updating the quantity.');
+    }
+}
+
+
+
+
+function removeFromCart(productId) {
+    console.log(`Remove product with ID ${productId} from cart`);
+
+    fetch(`https://localhost:7011/api/Products/RemoveFromCart/${productId}/${sessionStorage.id}`, {
+        method: 'DELETE',
+        headers: {
+            'Accept': '*/*'
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            return response.text(); 
+        } else {
+            throw new Error('Failed to remove the product from the cart.');
+        }
+    })
+    .then(message => {
+        console.log(message); 
+        getCartDetails(); 
+    })
+    .catch(error => {
+        console.error('Error:', error.message);
+    });
+}
+
+// Call getCartDetails when the page loads
+window.onload = getCartDetails;
+</script>
+
+</body>
+</html>

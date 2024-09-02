@@ -11,9 +11,14 @@
 
 <!-- Sidebar -->
 <div class="sidebar">
-    <a href="#home">Home</a>
-    <a href="./login.html">Login</a>
+    <a href="./cart.html" id="cart-link">Cart</a>
     <a href="./register.html">Register</a>
+    <a href="./login.html" id="login-link">Login</a>
+    <a href="./userSearch.html" id="login-link">User Search</a>
+
+    <a href="./login.html" id="logout-link" style="display: none;">Logout</a>
+    
+
     <div class="dropdown">
         <button class="dropbtn">Categories 
             <i class="fa fa-caret-down"></i>
@@ -25,7 +30,7 @@
 </div>
 
     <!-- Form for adding a new category -->
-    <div class="form-container">
+    <div class="form-container" id="AddCategoryForm">
         <h2>Add New Category</h2>
         <form id="addCategoryForm">
             <div class="form-group">
@@ -63,7 +68,7 @@
 
 
 <!-- Form for adding a new product using [FromForm] -->
-<div class="form-container">
+<div class="form-container" id="AddProductForm">
     <h2>Add New Product</h2>
     <form id="productForm" enctype="multipart/form-data">
         <div class="form-group">
@@ -103,4 +108,31 @@
     <script src="./script.js"></script>
 
 </body>
+
+
+
+<script>
+    let userName = sessionStorage.username;
+    if (userName === "Admin2") {
+     
+        document.getElementById("cart-link").style.display = "none";
+
+    }else{
+        document.getElementById("AddCategoryForm").style.display = "none";
+        document.getElementById("AddProductForm").style.display = "none";
+    }
+
+    if (userName != null) { // if username exists
+        document.getElementById("login-link").style.display = "none";
+        document.getElementById("logout-link").style.display = "block";
+    } else {
+        document.getElementById("logout-link").style.display = "none";
+        document.getElementById("login-link").style.display = "block";
+    }
+
+</script>
+
+
+
+
 </html>

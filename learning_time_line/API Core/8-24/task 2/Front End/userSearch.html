@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Search</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .search-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        #search-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .user-result {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search for users..." autocomplete="off">
+        <div id="results"></div>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('results');
+
+    searchInput.addEventListener('input', () => {
+        const query = searchInput.value.trim();
+
+        if (query.length > 0) {
+            fetchUserData(query);
+        } else {
+            resultsContainer.innerHTML = ''; // Clear results when input is empty
+        }
+    });
+
+    function fetchUserData(query) {
+        const formData = new FormData();
+        formData.append('name', query);
+
+        fetch('https://localhost:7011/api/GetUserData/getUserByName', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            displayResults(data);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            resultsContainer.innerHTML = '<p>Something went wrong. Please try again later.</p>';
+        });
+    }
+
+    function displayResults(data) {
+        resultsContainer.innerHTML = ''; // Clear previous results
+
+        if (data) {
+            const userResult = document.createElement('div');
+            userResult.classList.add('user-result');
+
+            userResult.innerHTML = `
+                <p><strong>User ID:</strong> ${data.userId}</p>
+                <p><strong>Username:</strong> ${data.username}</p>
+                <p><strong>Email:</strong> ${data.email}</p>
+                <p><strong>Cart ID:</strong> ${data.cartId}</p>
+                <p><strong>Orders:</strong> ${data.orders.length > 0 ? data.orders.join(', ') : 'No orders'}</p>
+            `;
+
+            resultsContainer.appendChild(userResult);
+        } else {
+            resultsContainer.innerHTML = '<p>No user found.</p>';
+        }
+    }
+});
+
+    </script>
+</body>
+</html>
