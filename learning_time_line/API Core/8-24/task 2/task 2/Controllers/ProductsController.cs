@@ -5,6 +5,8 @@ using System.Linq;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace task_2.Controllers
 {
@@ -146,9 +148,16 @@ namespace task_2.Controllers
         }
 
         // GET: api/Products/ProductbyCategory?name=CategoryName
+        [Authorize]
         [HttpGet("ProductbyCategory")]
         public async Task<ActionResult> GetProductByCategory(string name)
         {
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+            {
+                return Unauthorized();
+            }
+
             var category = await _context.Categories.FirstOrDefaultAsync(c => c.CategoryName == name);
 
             if (category == null)
@@ -167,9 +176,12 @@ namespace task_2.Controllers
         }
 
         // GET: api/Products/category/5
+        [Authorize]
         [HttpGet("category/{categoryId:int}")]
         public async Task<ActionResult> GetProductsByCategoryId(int categoryId)
         {
+          
+
             var products = await _context.Products.Where(p => p.CategoryId == categoryId).ToListAsync();
 
             if (!products.Any())

@@ -31,7 +31,15 @@ async function fetchCategories() {
 
 async function fetchProductsByCategory(categoryId) {
     try {
-        const response = await fetch(`https://localhost:7011/api/Products/category/${categoryId}`);
+        const token = localStorage.getItem('jwtToken');
+        const response = await fetch(`https://localhost:7011/api/Products/category/${categoryId}`, {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
+        });
+
+       
+
         const products = await response.json();
         const tableBody = document.getElementById('productGrid');
         tableBody.innerHTML = ''; 

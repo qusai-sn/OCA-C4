@@ -272,3 +272,4 @@ C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\8-24\task 2\t
 C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\8-24\task 2\task 2\obj\Debug\net8.0\task 2.pdb
 C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\8-24\task 2\task 2\obj\Debug\net8.0\task 2.genruntimeconfig.cache
 C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\8-24\task 2\task 2\obj\Debug\net8.0\ref\task 2.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\8-24\task 2\task 2\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
