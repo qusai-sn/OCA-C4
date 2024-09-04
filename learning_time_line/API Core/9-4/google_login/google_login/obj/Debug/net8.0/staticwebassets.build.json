@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Dd4xExMlRqEiO5deuRRy7M1ZfrzepIsmAP4l8GFhx/o=",
+  "Source": "google_login",
+  "BasePath": "_content/google_login",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

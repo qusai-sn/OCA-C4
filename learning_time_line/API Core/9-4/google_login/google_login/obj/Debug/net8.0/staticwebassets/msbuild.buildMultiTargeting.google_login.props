@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\google_login.props" />
+</Project>
