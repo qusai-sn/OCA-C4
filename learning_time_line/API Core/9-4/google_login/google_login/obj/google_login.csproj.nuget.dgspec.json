@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orange Academy\\source\\repos\\google_login\\google_login\\google_login.csproj": {}
+    "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\9-4\\google_login\\google_login\\google_login.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orange Academy\\source\\repos\\google_login\\google_login\\google_login.csproj": {
+    "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\9-4\\google_login\\google_login\\google_login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orange Academy\\source\\repos\\google_login\\google_login\\google_login.csproj",
+        "projectUniqueName": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\9-4\\google_login\\google_login\\google_login.csproj",
         "projectName": "google_login",
-        "projectPath": "C:\\Users\\Orange Academy\\source\\repos\\google_login\\google_login\\google_login.csproj",
+        "projectPath": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\9-4\\google_login\\google_login\\google_login.csproj",
         "packagesPath": "C:\\Users\\Orange Academy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orange Academy\\source\\repos\\google_login\\google_login\\obj\\",
+        "outputPath": "C:\\Users\\Orange Academy\\Desktop\\OCA-C4\\learning_time_line\\API Core\\9-4\\google_login\\google_login\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -314,12 +314,15 @@ namespace task_2.Controllers
             [HttpPost("category/{categoryId:int}")]
             public async Task<ActionResult> AddProductToCategory(int categoryId, [FromForm] ProductDTO2 productDto)
             {
+
                 if (productDto == null)
                 {
                     return BadRequest("Product data is null");
                 }
 
+
                 var imageName = await UploadImageAsync(productDto);
+
 
                 var product = new Product
                 {
@@ -327,9 +330,10 @@ namespace task_2.Controllers
                     Description = productDto.Description,
                     Price = productDto.Price,
                     ProductName = productDto.ProductName,
-                    ProductImage = imageName
+                    ProductImage = imageName //image path
                 };
 
+            
                 _context.Products.Add(product);
                 await _context.SaveChangesAsync();
 

@@ -31,3 +31,37 @@ C:\Users\Orange Academy\source\repos\google_login\google_login\obj\Debug\net8.0\
 C:\Users\Orange Academy\source\repos\google_login\google_login\obj\Debug\net8.0\google_login.pdb
 C:\Users\Orange Academy\source\repos\google_login\google_login\obj\Debug\net8.0\google_login.genruntimeconfig.cache
 C:\Users\Orange Academy\source\repos\google_login\google_login\obj\Debug\net8.0\ref\google_login.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\appsettings.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\google_login.exe
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\google_login.deps.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\google_login.runtimeconfig.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\google_login.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\google_login.pdb
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.csproj.AssemblyReference.cache
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.AssemblyInfoInputs.cache
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.AssemblyInfo.cs
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.csproj.CoreCompileInputs.cache
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.sourcelink.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\staticwebassets\msbuild.google_login.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\staticwebassets\msbuild.build.google_login.props
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.google_login.props
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.google_login.props
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\scopedcss\bundle\google_login.styles.css
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_l.671B8A19.Up2Date
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\refint\google_login.dll
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.pdb
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\google_login.genruntimeconfig.cache
+C:\Users\Orange Academy\Desktop\OCA-C4\learning_time_line\API Core\9-4\google_login\google_login\obj\Debug\net8.0\ref\google_login.dll
