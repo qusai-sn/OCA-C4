@@ -71,7 +71,7 @@ function PrimeCheck(): void {
         let num: number = numbers[i];
         let isPrime: boolean = true;
 
-        if (num <= 1) {
+        if (num  <= 1) {
             console.log(num, 'is not prime');
             continue;  
         }
